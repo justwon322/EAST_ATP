@@ -76,7 +76,7 @@ class extractor(nn.Module): # feature extractor stem
 		return out[1:]
 
 
-class merge(nn.Module):
+class merge(nn.Module): #FCN
 	def __init__(self):
 		super(merge, self).__init__()
 
@@ -115,12 +115,12 @@ class merge(nn.Module):
 				nn.init.constant_(m.bias, 0)
 
 	def forward(self, x): # 논문의 feature merging branch - decoder
-		y = F.interpolate(x[3], scale_factor=2, mode='bilinear', align_corners=True)
+		y = F.interpolate(x[3], scale_factor=2, mode='bilinear', align_corners=True) #2배 업샘플링
 		y = torch.cat((y, x[2]), 1)
 		y = self.relu1(self.bn1(self.conv1(y)))		
 		y = self.relu2(self.bn2(self.conv2(y)))
 		
-		y = F.interpolate(y, scale_factor=2, mode='bilinear', align_corners=True) #2배 업샘플링
+		y = F.interpolate(y, scale_factor=2, mode='bilinear', align_corners=True)
 		y = torch.cat((y, x[1]), 1)
 		y = self.relu3(self.bn3(self.conv3(y)))		
 		y = self.relu4(self.bn4(self.conv4(y)))
@@ -151,9 +151,9 @@ class output(nn.Module):
 
 	def forward(self, x):
 		score = self.sigmoid1(self.conv1(x))
-		loc   = self.sigmoid2(self.conv2(x)) * self.scope
-		angle = (self.sigmoid3(self.conv3(x)) - 0.5) * math.pi
-		geo   = torch.cat((loc, angle), 1) 
+		loc   = self.sigmoid2(self.conv2(x)) * self.scope  # 좌표가 축소되어있으니 *512(?)
+		angle = (self.sigmoid3(self.conv3(x)) - 0.5) * 0 #math.pi # 문서는 모든각도가 0이니까 필요없음
+		geo   = torch.cat((loc, angle), 1)  # loc(AABB) + angle(theta)
 		return score, geo
 		
 	
