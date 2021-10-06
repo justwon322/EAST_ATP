@@ -1,0 +1,480 @@
+{
+  "images" : [ {
+    "image.make.code" : "5350046",
+    "image.make.year" : "2004",
+    "image.category" : "주민생활지원",
+    "image.width" : 2480,
+    "image.height" : 3508,
+    "image.file.name" : "5350046-2004-0001-0437.jpg",
+    "image.create.time" : "2021-02-21 03:37:59"
+  } ],
+  "annotations" : [ {
+    "id" : 0,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "김해를",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 943, 373, 131, 47 ]
+  }, {
+    "id" : 1,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "아름답게",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1090, 373, 169, 50 ]
+  }, {
+    "id" : 2,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "시민을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1275, 373, 134, 47 ]
+  }, {
+    "id" : 3,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "행복하게",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1419, 373, 172, 50 ]
+  }, {
+    "id" : 4,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "칠암도서관",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 977, 545, 586, 97 ]
+  }, {
+    "id" : 5,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "수신자",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 244, 771, 179, 65 ]
+  }, {
+    "id" : 6,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "내부결재",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 504, 771, 235, 65 ]
+  }, {
+    "id" : 7,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "(경유)",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 244, 846, 182, 69 ]
+  }, {
+    "id" : 8,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "제목",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 244, 962, 119, 65 ]
+  }, {
+    "id" : 9,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "겨울방학특강",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 429, 962, 357, 65 ]
+  }, {
+    "id" : 10,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "강사수당",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 808, 962, 241, 65 ]
+  }, {
+    "id" : 11,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "지급",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1071, 962, 122, 65 ]
+  }, {
+    "id" : 12,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "우리도서관에서",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 435, 1065, 351, 59 ]
+  }, {
+    "id" : 13,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "운영중인",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 808, 1065, 204, 56 ]
+  }, {
+    "id" : 14,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "겨울방학특강이",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1034, 1065, 347, 53 ]
+  }, {
+    "id" : 15,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "종료됨에",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1409, 1065, 204, 56 ]
+  }, {
+    "id" : 16,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "따라",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1633, 1068, 108, 58 ]
+  }, {
+    "id" : 17,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "출강한",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1757, 1065, 157, 53 ]
+  }, {
+    "id" : 18,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "강사에",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1933, 1065, 153, 59 ]
+  }, {
+    "id" : 19,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "대한",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2111, 1065, 103, 56 ]
+  }, {
+    "id" : 20,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "수당을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 235, 1146, 157, 57 ]
+  }, {
+    "id" : 21,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "아래와 같이",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 407, 1146, 276, 54 ]
+  }, {
+    "id" : 22,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "지급하고저",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 708, 1146, 254, 57 ]
+  }, {
+    "id" : 23,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "합니다.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 983, 1146, 176, 57 ]
+  }, {
+    "id" : 24,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "1.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 464, 1312, 50, 44 ]
+  }, {
+    "id" : 25,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "지급액",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 532, 1306, 210, 56 ]
+  }, {
+    "id" : 26,
+    "annotation.type" : "rectangle",
+    "annotation.text" : ":",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 758, 1319, 28, 31 ]
+  }, {
+    "id" : 27,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "일금일백팔십만원정",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 808, 1306, 454, 56 ]
+  }, {
+    "id" : 28,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "(₩1,800,000)",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1256, 1306, 332, 56 ]
+  }, {
+    "id" : 29,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "2.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 457, 1394, 54, 44 ]
+  }, {
+    "id" : 30,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "지급기간",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 532, 1384, 210, 60 ]
+  }, {
+    "id" : 31,
+    "annotation.type" : "rectangle",
+    "annotation.text" : ":",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 758, 1397, 28, 34 ]
+  }, {
+    "id" : 32,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "2004.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 802, 1388, 131, 53 ]
+  }, {
+    "id" : 33,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "1.2-1. 30",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 962, 1391, 300, 44 ]
+  }, {
+    "id" : 34,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "3.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 457, 1472, 54, 44 ]
+  }, {
+    "id" : 35,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "지급내역",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 532, 1466, 207, 56 ]
+  }, {
+    "id" : 36,
+    "annotation.type" : "rectangle",
+    "annotation.text" : ":",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 758, 1478, 28, 35 ]
+  }, {
+    "id" : 37,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "별첨",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 811, 1466, 100, 56 ]
+  }, {
+    "id" : 38,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "지급내역서",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 933, 1466, 254, 56 ]
+  }, {
+    "id" : 39,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "참조",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1209, 1466, 103, 56 ]
+  }, {
+    "id" : 40,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "4.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 457, 1554, 54, 43 ]
+  }, {
+    "id" : 41,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "지급선:",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 532, 1544, 254, 57 ]
+  }, {
+    "id" : 42,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "김해시",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 808, 1547, 154, 57 ]
+  }, {
+    "id" : 43,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "내동",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 987, 1547, 103, 54 ]
+  }, {
+    "id" : 44,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "연지마을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1109, 1544, 203, 57 ]
+  }, {
+    "id" : 45,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "대우A",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1334, 1547, 132, 50 ]
+  }, {
+    "id" : 46,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "104-1203",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1482, 1547, 209, 54 ]
+  }, {
+    "id" : 47,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "외",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 958, 1629, 54, 53 ]
+  }, {
+    "id" : 48,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "14명",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1034, 1629, 100, 50 ]
+  }, {
+    "id" : 49,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "5.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 454, 1707, 57, 50 ]
+  }, {
+    "id" : 50,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "지급방법",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 532, 1704, 207, 59 ]
+  }, {
+    "id" : 51,
+    "annotation.type" : "rectangle",
+    "annotation.text" : ":",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 755, 1713, 37, 41 ]
+  }, {
+    "id" : 52,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "개인별",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 808, 1707, 154, 56 ]
+  }, {
+    "id" : 53,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "계좌입금",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 983, 1707, 204, 56 ]
+  }, {
+    "id" : 54,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "6.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 457, 1792, 54, 43 ]
+  }, {
+    "id" : 55,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "예산과목",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 532, 1785, 210, 57 ]
+  }, {
+    "id" : 56,
+    "annotation.type" : "rectangle",
+    "annotation.text" : ":",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 755, 1795, 37, 40 ]
+  }, {
+    "id" : 57,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "교육및문화비,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 805, 1785, 329, 57 ]
+  }, {
+    "id" : 58,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "문화예술,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1156, 1785, 225, 54 ]
+  }, {
+    "id" : 59,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "칠암도서관운영,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1409, 1785, 376, 57 ]
+  }, {
+    "id" : 60,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "경상예산",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1804, 1785, 210, 57 ]
+  }, {
+    "id" : 61,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "(경상적",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2008, 1785, 178, 57 ]
+  }, {
+    "id" : 62,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "경비)",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 235, 1867, 131, 56 ]
+  }, {
+    "id" : 63,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "일반운영비.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 385, 1867, 276, 56 ]
+  }, {
+    "id" : 64,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "붙임",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 235, 2105, 103, 56 ]
+  }, {
+    "id" : 65,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "겨울방학특강강사수당지급내역.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 382, 2105, 724, 59 ]
+  }, {
+    "id" : 66,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "끝",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1159, 2108, 66, 53 ]
+  }, {
+    "id" : 67,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "02/03",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1673, 2891, 106, 50 ]
+  }, {
+    "id" : 68,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "지방기계원",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 247, 2922, 185, 50 ]
+  }, {
+    "id" : 69,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "(기능8급",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 417, 2922, 156, 47 ]
+  }, {
+    "id" : 70,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "홍현철",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 570, 2932, 144, 56 ]
+  }, {
+    "id" : 71,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "지방사서주사",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 761, 2938, 216, 50 ]
+  }, {
+    "id" : 72,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "차미옥",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1077, 2935, 129, 50 ]
+  }, {
+    "id" : 73,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "칠암도서관장",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1269, 2938, 216, 50 ]
+  }, {
+    "id" : 74,
+    "annotation.type" : "rectangle",
+    "annotation.text" : ")",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 251, 2963, 21, 31 ]
+  }, {
+    "id" : 76,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "협조자",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 241, 3214, 113, 53 ]
+  }, {
+    "id" : 77,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "지방행정주사",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 366, 3214, 217, 53 ]
+  }, {
+    "id" : 78,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "박형국",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 626, 3217, 129, 47 ]
+  } ]
+}

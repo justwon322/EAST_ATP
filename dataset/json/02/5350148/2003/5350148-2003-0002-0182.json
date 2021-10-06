@@ -1,0 +1,930 @@
+{
+  "images" : [ {
+    "image.make.code" : "5350148",
+    "image.make.year" : "2003",
+    "image.category" : "지역문화",
+    "image.width" : 2472,
+    "image.height" : 3472,
+    "image.file.name" : "5350148-2003-0002-0182.jpg",
+    "image.create.time" : "2021-02-02 15:14:00"
+  } ],
+  "annotations" : [ {
+    "id" : 0,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "세계유산등재",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 406, 195, 295, 69 ]
+  }, {
+    "id" : 1,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "신청의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 725, 195, 152, 69 ]
+  }, {
+    "id" : 2,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "기초를",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 902, 198, 158, 66 ]
+  }, {
+    "id" : 3,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "제공하는",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1082, 198, 208, 66 ]
+  }, {
+    "id" : 4,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "과정과",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1305, 195, 158, 69 ]
+  }, {
+    "id" : 5,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "현상들을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1485, 195, 205, 69 ]
+  }, {
+    "id" : 6,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "반영하여야",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1711, 195, 257, 69 ]
+  }, {
+    "id" : 7,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "한다.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1990, 198, 121, 62 ]
+  }, {
+    "id" : 8,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "그",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 406, 291, 56, 50 ]
+  }, {
+    "id" : 9,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "범위는",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 480, 282, 162, 65 ]
+  }, {
+    "id" : 10,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "인간의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 663, 282, 152, 65 ]
+  }, {
+    "id" : 11,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "직접적인",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 840, 282, 208, 68 ]
+  }, {
+    "id" : 12,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "침범의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1073, 282, 155, 68 ]
+  }, {
+    "id" : 13,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "영향과",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1256, 282, 158, 68 ]
+  }, {
+    "id" : 14,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "신청지역의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1429, 282, 261, 68 ]
+  }, {
+    "id" : 15,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "외부에서의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1711, 282, 261, 68 ]
+  }, {
+    "id" : 16,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "자원",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1996, 282, 112, 68 ]
+  }, {
+    "id" : 17,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "활용의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 407, 366, 153, 67 ]
+  }, {
+    "id" : 18,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "영향으로부터",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 595, 372, 304, 65 ]
+  }, {
+    "id" : 19,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "유적의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 936, 369, 155, 68 ]
+  }, {
+    "id" : 20,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "유산적",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1128, 369, 158, 68 ]
+  }, {
+    "id" : 21,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "가치를",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1318, 372, 161, 65 ]
+  }, {
+    "id" : 22,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "보호하기",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1510, 369, 207, 68 ]
+  }, {
+    "id" : 23,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "위하여",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1752, 369, 158, 68 ]
+  }, {
+    "id" : 24,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "뛰어난",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1944, 369, 167, 68 ]
+  }, {
+    "id" : 25,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "보편적",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 406, 462, 149, 62 ]
+  }, {
+    "id" : 26,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "가치를",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 577, 459, 155, 65 ]
+  }, {
+    "id" : 27,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "지닌",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 750, 459, 109, 62 ]
+  }, {
+    "id" : 28,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "지역의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 877, 456, 155, 68 ]
+  }, {
+    "id" : 29,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "인근에",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1060, 459, 149, 65 ]
+  }, {
+    "id" : 30,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "충분한",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1237, 459, 155, 65 ]
+  }, {
+    "id" : 31,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "지역을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1407, 456, 159, 68 ]
+  }, {
+    "id" : 32,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "포함하여야",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1584, 459, 260, 65 ]
+  }, {
+    "id" : 33,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "한다.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1863, 459, 118, 62 ]
+  }, {
+    "id" : 34,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "유산",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2003, 459, 111, 62 ]
+  }, {
+    "id" : 35,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "신청지역의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 403, 542, 257, 69 ]
+  }, {
+    "id" : 36,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "범위는",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 688, 546, 158, 65 ]
+  }, {
+    "id" : 37,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "국립공원,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 868, 546, 232, 65 ]
+  }, {
+    "id" : 38,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "생물권보존지역과",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1122, 542, 412, 69 ]
+  }, {
+    "id" : 39,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "같은",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1556, 546, 109, 62 ]
+  }, {
+    "id" : 40,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "하나",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1690, 546, 111, 65 ]
+  }, {
+    "id" : 41,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "이상의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1823, 542, 155, 69 ]
+  }, {
+    "id" : 42,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "현존",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2006, 546, 108, 62 ]
+  }, {
+    "id" : 43,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "하거나",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 406, 632, 155, 66 ]
+  }, {
+    "id" : 44,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "제안된",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 577, 632, 151, 66 ]
+  }, {
+    "id" : 45,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "보호지역과",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 744, 632, 257, 69 ]
+  }, {
+    "id" : 46,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "조화를",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1017, 636, 158, 62 ]
+  }, {
+    "id" : 47,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "이루어야",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1190, 632, 208, 69 ]
+  }, {
+    "id" : 48,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "한다.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1410, 632, 118, 66 ]
+  }, {
+    "id" : 49,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "현존하거나",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1547, 632, 257, 69 ]
+  }, {
+    "id" : 50,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "제안된",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1817, 632, 161, 66 ]
+  }, {
+    "id" : 51,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "보호",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2000, 639, 111, 55 ]
+  }, {
+    "id" : 52,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "지역이",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 406, 719, 152, 65 ]
+  }, {
+    "id" : 53,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "여러",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 589, 719, 102, 65 ]
+  }, {
+    "id" : 54,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "곳의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 719, 719, 106, 65 ]
+  }, {
+    "id" : 55,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "관리지역을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 852, 716, 267, 68 ]
+  }, {
+    "id" : 56,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "포함할",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1144, 725, 161, 59 ]
+  }, {
+    "id" : 57,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "경우에는,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1327, 719, 223, 65 ]
+  }, {
+    "id" : 58,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "그",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1578, 728, 56, 47 ]
+  }, {
+    "id" : 59,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "지역들의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1658, 716, 208, 68 ]
+  }, {
+    "id" : 60,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "일부만이",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1897, 716, 211, 68 ]
+  }, {
+    "id" : 61,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "(a)에",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 400, 806, 118, 65 ]
+  }, {
+    "id" : 62,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "서술된",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 542, 806, 156, 65 ]
+  }, {
+    "id" : 63,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "기준을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 719, 806, 155, 65 ]
+  }, {
+    "id" : 64,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "만족시킬",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 896, 803, 204, 68 ]
+  }, {
+    "id" : 65,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "수",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1122, 806, 62, 65 ]
+  }, {
+    "id" : 66,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "있다.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1203, 806, 121, 65 ]
+  }, {
+    "id" : 67,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "비록",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1342, 806, 106, 65 ]
+  }, {
+    "id" : 68,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "다른",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1469, 806, 109, 65 ]
+  }, {
+    "id" : 69,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "지역들이",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1593, 806, 205, 65 ]
+  }, {
+    "id" : 70,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "(a)의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1823, 809, 115, 62 ]
+  }, {
+    "id" : 71,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "기준을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1959, 806, 155, 65 ]
+  }, {
+    "id" : 72,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "충족시킬",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 406, 893, 192, 68 ]
+  }, {
+    "id" : 73,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "수",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 620, 896, 56, 62 ]
+  }, {
+    "id" : 74,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "없을지라도",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 694, 893, 245, 68 ]
+  }, {
+    "id" : 75,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "신청유산의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 955, 888, 246, 70 ]
+  }, {
+    "id" : 76,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "진정성을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1221, 893, 196, 68 ]
+  }, {
+    "id" : 77,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "보장하기",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1432, 893, 199, 68 ]
+  }, {
+    "id" : 78,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "위한",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1649, 893, 112, 65 ]
+  }, {
+    "id" : 79,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "관리를",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1773, 893, 158, 65 ]
+  }, {
+    "id" : 80,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "위하여",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1950, 893, 158, 65 ]
+  }, {
+    "id" : 81,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "필요하다.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 406, 980, 223, 65 ]
+  }, {
+    "id" : 82,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "예를",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 657, 980, 106, 65 ]
+  }, {
+    "id" : 83,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "들면,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 790, 980, 128, 68 ]
+  }, {
+    "id" : 84,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "생물권보전지역의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 942, 980, 410, 65 ]
+  }, {
+    "id" : 85,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "경우",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1386, 980, 108, 65 ]
+  }, {
+    "id" : 86,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "다른지역",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1522, 980, 208, 68 ]
+  }, {
+    "id" : 87,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "즉",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1767, 983, 56, 62 ]
+  }, {
+    "id" : 88,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "완충",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1848, 980, 111, 65 ]
+  }, {
+    "id" : 89,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "지대,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1984, 980, 127, 65 ]
+  }, {
+    "id" : 90,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "변이지역과",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 406, 1063, 260, 68 ]
+  }, {
+    "id" : 91,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "같은",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 688, 1066, 109, 66 ]
+  }, {
+    "id" : 92,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "다른",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 822, 1066, 108, 62 ]
+  }, {
+    "id" : 93,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "지역들은",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 952, 1063, 217, 68 ]
+  }, {
+    "id" : 94,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "생물권",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1194, 1066, 154, 66 ]
+  }, {
+    "id" : 95,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "보존지역의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1373, 1063, 258, 69 ]
+  }, {
+    "id" : 96,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "전체로서의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1662, 1063, 257, 69 ]
+  }, {
+    "id" : 97,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "보존을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1947, 1070, 164, 62 ]
+  }, {
+    "id" : 98,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "위하여",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 406, 1153, 152, 65 ]
+  }, {
+    "id" : 99,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "중요하다고",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 601, 1153, 261, 65 ]
+  }, {
+    "id" : 100,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "할지라도",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 899, 1153, 214, 65 ]
+  }, {
+    "id" : 101,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "핵심지역만이",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1153, 1153, 304, 65 ]
+  }, {
+    "id" : 102,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "진실성의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1500, 1150, 208, 68 ]
+  }, {
+    "id" : 103,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "기준과",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1748, 1153, 165, 65 ]
+  }, {
+    "id" : 104,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "조건을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1947, 1156, 164, 59 ]
+  }, {
+    "id" : 105,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "충족시킬",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 406, 1237, 208, 68 ]
+  }, {
+    "id" : 106,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "수도",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 632, 1240, 112, 62 ]
+  }, {
+    "id" : 107,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "있다.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 760, 1240, 124, 68 ]
+  }, {
+    "id" : 108,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "⑦",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 332, 1398, 56, 56 ]
+  }, {
+    "id" : 109,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "(a)에",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 406, 1392, 124, 62 ]
+  }, {
+    "id" : 110,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "서술된",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 555, 1389, 161, 68 ]
+  }, {
+    "id" : 111,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "유적들은",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 738, 1392, 211, 62 ]
+  }, {
+    "id" : 112,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "생물학적",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 976, 1389, 208, 65 ]
+  }, {
+    "id" : 113,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "다양성의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1212, 1389, 205, 68 ]
+  }, {
+    "id" : 114,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "보존을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1448, 1395, 158, 59 ]
+  }, {
+    "id" : 115,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "위하여",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1631, 1389, 158, 68 ]
+  }, {
+    "id" : 116,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "매우",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1814, 1392, 111, 62 ]
+  }, {
+    "id" : 117,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "중요한",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1950, 1395, 161, 59 ]
+  }, {
+    "id" : 118,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "유적이어야",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 412, 1476, 254, 68 ]
+  }, {
+    "id" : 119,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "한다.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 688, 1476, 118, 65 ]
+  }, {
+    "id" : 120,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "생물다양성협약에",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 834, 1476, 397, 68 ]
+  }, {
+    "id" : 121,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "따르면",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1262, 1476, 155, 65 ]
+  }, {
+    "id" : 122,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "생물다양성은",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1445, 1476, 303, 65 ]
+  }, {
+    "id" : 123,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "생물종내",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1773, 1476, 205, 65 ]
+  }, {
+    "id" : 124,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "또는",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2006, 1482, 108, 56 ]
+  }, {
+    "id" : 125,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "생물종과",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 412, 1562, 211, 66 ]
+  }, {
+    "id" : 126,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "생태계간의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 657, 1559, 254, 69 ]
+  }, {
+    "id" : 127,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "다양성을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 952, 1559, 210, 69 ]
+  }, {
+    "id" : 128,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "포함하거나",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1197, 1562, 266, 69 ]
+  }, {
+    "id" : 129,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "그",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1497, 1572, 56, 46 ]
+  }, {
+    "id" : 130,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "일부분인",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1590, 1559, 208, 69 ]
+  }, {
+    "id" : 131,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "복합생태계,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1832, 1559, 279, 69 ]
+  }, {
+    "id" : 132,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "지상,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 412, 1652, 124, 62 ]
+  }, {
+    "id" : 133,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "수중,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 564, 1649, 124, 65 ]
+  }, {
+    "id" : 134,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "다른",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 719, 1652, 109, 59 ]
+  }, {
+    "id" : 135,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "수중생태계내의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 859, 1646, 362, 68 ]
+  }, {
+    "id" : 136,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "유기",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1256, 1649, 105, 65 ]
+  }, {
+    "id" : 137,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "생물체내의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1398, 1646, 257, 68 ]
+  }, {
+    "id" : 138,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "변화를",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1693, 1649, 161, 65 ]
+  }, {
+    "id" : 139,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "의미한다.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1885, 1646, 226, 68 ]
+  }, {
+    "id" : 140,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "최고의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 412, 1733, 152, 65 ]
+  }, {
+    "id" : 141,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "생물학적",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 595, 1733, 202, 65 ]
+  }, {
+    "id" : 142,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "다양성을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 822, 1733, 213, 68 ]
+  }, {
+    "id" : 143,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "가지고",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1054, 1733, 164, 65 ]
+  }, {
+    "id" : 144,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "있는",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1240, 1736, 108, 65 ]
+  }, {
+    "id" : 145,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "유적만이",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1367, 1733, 208, 68 ]
+  }, {
+    "id" : 146,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "(a)⑥기준을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1596, 1733, 280, 65 ]
+  }, {
+    "id" : 147,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "충족시킬",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1897, 1730, 214, 71 ]
+  }, {
+    "id" : 148,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "수",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 412, 1820, 62, 65 ]
+  }, {
+    "id" : 149,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "있을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 490, 1820, 108, 65 ]
+  }, {
+    "id" : 150,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "것이다.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 614, 1820, 173, 65 ]
+  }, {
+    "id" : 151,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "- 11 -",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1100, 3178, 146, 43 ]
+  }, {
+    "id" : 152,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "14",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1891, 3153, 102, 74 ]
+  } ]
+}

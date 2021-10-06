@@ -1,0 +1,768 @@
+{
+  "images" : [ {
+    "image.make.code" : "5350037",
+    "image.make.year" : "2005",
+    "image.category" : "지역환경.산림",
+    "image.width" : 2480,
+    "image.height" : 3508,
+    "image.file.name" : "5350037-2005-0001-0873.jpg",
+    "image.create.time" : "2021-02-21 22:34:24"
+  } ],
+  "annotations" : [ {
+    "id" : 0,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "\"2만불",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 883, 376, 132, 44 ]
+  }, {
+    "id" : 1,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "시대!",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1027, 376, 110, 47 ]
+  }, {
+    "id" : 2,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "도민과",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1149, 373, 135, 50 ]
+  }, {
+    "id" : 3,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "함께",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1294, 373, 94, 47 ]
+  }, {
+    "id" : 4,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "열겠습니다.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1400, 373, 241, 50 ]
+  }, {
+    "id" : 5,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "경상남도",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1037, 545, 463, 97 ]
+  }, {
+    "id" : 8,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "수신자",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 244, 771, 179, 65 ]
+  }, {
+    "id" : 9,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "수신자",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 504, 771, 182, 65 ]
+  }, {
+    "id" : 10,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "참조",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 705, 771, 122, 62 ]
+  }, {
+    "id" : 11,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "(경유)",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 244, 846, 182, 69 ]
+  }, {
+    "id" : 12,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "제목",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 244, 962, 119, 65 ]
+  }, {
+    "id" : 13,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "시군구",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 432, 962, 182, 68 ]
+  }, {
+    "id" : 14,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "산림행정시스템(조림,육림분야)",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 633, 962, 855, 65 ]
+  }, {
+    "id" : 15,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "조속 입력",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1507, 962, 269, 65 ]
+  }, {
+    "id" : 16,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "촉구",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1798, 962, 125, 65 ]
+  }, {
+    "id" : 17,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "1.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 438, 1153, 47, 43 ]
+  }, {
+    "id" : 18,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "관련문서",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 504, 1146, 207, 57 ]
+  }, {
+    "id" : 20,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "산림녹지과-2060호(2005.2.22)",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 532, 1225, 699, 56 ]
+  }, {
+    "id" : 21,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "\"시군산림행정시스템(조림·육림)교육참석\"",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1256, 1225, 996, 53 ]
+  }, {
+    "id" : 22,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "관련",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 235, 1306, 100, 53 ]
+  }, {
+    "id" : 23,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "\"",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1435, 1384, 25, 25 ]
+  }, {
+    "id" : 24,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "시달임\"",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1582, 1384, 172, 57 ]
+  }, {
+    "id" : 26,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "산림청",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 532, 1388, 154, 50 ]
+  }, {
+    "id" : 27,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "산림자원과-1086호(2005.4.15)",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 705, 1384, 708, 54 ]
+  }, {
+    "id" : 28,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "이첩",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1456, 1388, 104, 50 ]
+  }, {
+    "id" : 29,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "2.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 432, 1510, 50, 44 ]
+  }, {
+    "id" : 30,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "지속가능한산림자원관리지침",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 504, 1500, 655, 57 ]
+  }, {
+    "id" : 31,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "제정에",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1181, 1503, 153, 57 ]
+  }, {
+    "id" : 32,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "따라",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1356, 1503, 104, 57 ]
+  }, {
+    "id" : 33,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "「시군구",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1475, 1500, 185, 60 ]
+  }, {
+    "id" : 34,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "산림행정시스템」",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1679, 1498, 382, 61 ]
+  }, {
+    "id" : 35,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "의 조림",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2073, 1503, 179, 54 ]
+  }, {
+    "id" : 36,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "숲가꾸기분야에",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 235, 1579, 351, 56 ]
+  }, {
+    "id" : 37,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "대한",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 608, 1579, 106, 56 ]
+  }, {
+    "id" : 38,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "시스템변경",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 730, 1579, 253, 56 ]
+  }, {
+    "id" : 39,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "(산림자원조성",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 980, 1575, 329, 57 ]
+  }, {
+    "id" : 40,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "·",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1325, 1597, 12, 13 ]
+  }, {
+    "id" : 41,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "산림자원관리",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1356, 1579, 301, 56 ]
+  }, {
+    "id" : 42,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "분야)에",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1679, 1579, 178, 56 ]
+  }, {
+    "id" : 43,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "따른",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1879, 1579, 104, 56 ]
+  }, {
+    "id" : 44,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "관련교육을우",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1998, 1579, 310, 56 ]
+  }, {
+    "id" : 45,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "리도는",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 232, 1654, 160, 56 ]
+  }, {
+    "id" : 46,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "지난",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 410, 1654, 107, 53 ]
+  }, {
+    "id" : 47,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "2.24일",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 529, 1654, 157, 50 ]
+  }, {
+    "id" : 48,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "전",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 711, 1654, 53, 53 ]
+  }, {
+    "id" : 49,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "시군",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 783, 1654, 107, 53 ]
+  }, {
+    "id" : 50,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "담당자를",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 908, 1654, 204, 50 ]
+  }, {
+    "id" : 51,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "대상으로",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1134, 1654, 203, 53 ]
+  }, {
+    "id" : 52,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "도",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1356, 1654, 60, 53 ]
+  }, {
+    "id" : 53,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "전산실에서",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1435, 1651, 247, 53 ]
+  }, {
+    "id" : 54,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "실시하였음.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1710, 1651, 273, 59 ]
+  }, {
+    "id" : 55,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "3.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 432, 1773, 57, 41 ]
+  }, {
+    "id" : 56,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "또한",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 504, 1767, 113, 56 ]
+  }, {
+    "id" : 57,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "산림청에서",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 639, 1767, 254, 56 ]
+  }, {
+    "id" : 58,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "'04년",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 915, 1767, 128, 50 ]
+  }, {
+    "id" : 59,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "용역사업으로",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1071, 1767, 307, 56 ]
+  }, {
+    "id" : 60,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "추진한",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1403, 1767, 154, 56 ]
+  }, {
+    "id" : 61,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "「조림·숲가꾸기",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1572, 1763, 345, 55 ]
+  }, {
+    "id" : 62,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "이력관리시스템",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1951, 1767, 351, 56 ]
+  }, {
+    "id" : 63,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "구축사업」",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 235, 1836, 233, 62 ]
+  }, {
+    "id" : 64,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "으로",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 482, 1842, 110, 56 ]
+  }, {
+    "id" : 65,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "1962년부터",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 608, 1842, 269, 50 ]
+  }, {
+    "id" : 66,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "2002년까지의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 899, 1842, 319, 53 ]
+  }, {
+    "id" : 67,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "사업실행내역을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1250, 1839, 354, 59 ]
+  }, {
+    "id" : 68,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "전산화하였으며,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1626, 1842, 372, 56 ]
+  }, {
+    "id" : 69,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "시군구",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2023, 1842, 154, 56 ]
+  }, {
+    "id" : 70,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "시스",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2202, 1842, 100, 50 ]
+  }, {
+    "id" : 71,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "템으로",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 235, 1917, 150, 53 ]
+  }, {
+    "id" : 72,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "입력한",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 410, 1917, 154, 56 ]
+  }, {
+    "id" : 73,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "내역이",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 586, 1914, 150, 59 ]
+  }, {
+    "id" : 74,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "자동전환되어",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 758, 1917, 301, 56 ]
+  }, {
+    "id" : 75,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "DB에",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1081, 1917, 122, 50 ]
+  }, {
+    "id" : 76,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "추가되도록",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1228, 1917, 254, 56 ]
+  }, {
+    "id" : 77,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "하였고",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1503, 1917, 154, 56 ]
+  }, {
+    "id" : 78,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "4.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 432, 2036, 57, 41 ]
+  }, {
+    "id" : 79,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "이에",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 504, 2030, 107, 50 ]
+  }, {
+    "id" : 80,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "따라",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 642, 2026, 103, 60 ]
+  }, {
+    "id" : 81,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "2002년",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 764, 2030, 169, 50 ]
+  }, {
+    "id" : 82,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "이후의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 962, 2026, 153, 57 ]
+  }, {
+    "id" : 84,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "실행내역을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1641, 2026, 254, 57 ]
+  }, {
+    "id" : 85,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "입력하도록",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1920, 2026, 257, 60 ]
+  }, {
+    "id" : 86,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "전호",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2199, 2026, 106, 57 ]
+  }, {
+    "id" : 87,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "로",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 235, 2105, 56, 53 ]
+  }, {
+    "id" : 88,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "시달하였으나",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 313, 2102, 304, 59 ]
+  }, {
+    "id" : 89,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "일부",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 639, 2102, 110, 56 ]
+  }, {
+    "id" : 90,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "시·군은",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 764, 2102, 176, 53 ]
+  }, {
+    "id" : 91,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "입력실적이",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 965, 2102, 253, 56 ]
+  }, {
+    "id" : 92,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "저조하거나",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1240, 2102, 257, 56 ]
+  }, {
+    "id" : 93,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "전무한",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1519, 2102, 157, 56 ]
+  }, {
+    "id" : 94,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "실정이오니,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1698, 2102, 269, 59 ]
+  }, {
+    "id" : 95,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "4월말까지",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1989, 2102, 235, 56 ]
+  }, {
+    "id" : 96,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "필",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2249, 2105, 53, 53 ]
+  }, {
+    "id" : 97,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "지별",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 232, 2177, 106, 56 ]
+  }, {
+    "id" : 98,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "실행내역이",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 360, 2177, 251, 59 ]
+  }, {
+    "id" : 99,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "입력될수",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 636, 2177, 203, 56 ]
+  }, {
+    "id" : 100,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "있도록",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 858, 2177, 157, 56 ]
+  }, {
+    "id" : 101,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "재차",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1034, 2177, 106, 56 ]
+  }, {
+    "id" : 102,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "촉구드리며",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1159, 2177, 250, 56 ]
+  }, {
+    "id" : 103,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "5.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 432, 2296, 60, 47 ]
+  }, {
+    "id" : 104,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "아울러,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 507, 2293, 170, 56 ]
+  }, {
+    "id" : 105,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "입력상황",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 705, 2290, 206, 59 ]
+  }, {
+    "id" : 106,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "점검",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 927, 2290, 113, 56 ]
+  }, {
+    "id" : 107,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "및",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1059, 2296, 53, 47 ]
+  }, {
+    "id" : 108,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "사업평가시",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1137, 2290, 251, 56 ]
+  }, {
+    "id" : 109,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "반영과",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1416, 2290, 153, 59 ]
+  }, {
+    "id" : 110,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "시군구",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1591, 2290, 160, 59 ]
+  }, {
+    "id" : 111,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "산림행정시스템을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1770, 2290, 407, 56 ]
+  }, {
+    "id" : 112,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "통한",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2199, 2293, 109, 53 ]
+  }, {
+    "id" : 113,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "숲가꾸기",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 231, 2366, 204, 59 ]
+  }, {
+    "id" : 114,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "추진실적보고",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 457, 2365, 307, 56 ]
+  }, {
+    "id" : 115,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "등을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 783, 2365, 107, 56 ]
+  }, {
+    "id" : 116,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "추진중임을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 909, 2362, 254, 59 ]
+  }, {
+    "id" : 117,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "알려드리니",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1184, 2365, 251, 56 ]
+  }, {
+    "id" : 118,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "조치하여",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1460, 2365, 200, 56 ]
+  }, {
+    "id" : 119,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "주시기",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1682, 2365, 153, 59 ]
+  }, {
+    "id" : 120,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "바랍니다.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1857, 2365, 223, 56 ]
+  }, {
+    "id" : 121,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "끝.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2099, 2368, 68, 50 ]
+  }, {
+    "id" : 122,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "경",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 620, 2860, 78, 81 ]
+  }, {
+    "id" : 123,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "상",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 858, 2863, 91, 78 ]
+  }, {
+    "id" : 124,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "남",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1096, 2866, 94, 72 ]
+  }, {
+    "id" : 125,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "도",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1325, 2860, 97, 78 ]
+  }, {
+    "id" : 126,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "지",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1575, 2860, 79, 81 ]
+  }, {
+    "id" : 127,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "수신자",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 232, 3060, 131, 47 ]
+  }, {
+    "id" : 128,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "전시군",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 379, 3057, 132, 50 ]
+  }, {
+    "id" : 129,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "산림녹지부서,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 523, 3057, 276, 50 ]
+  }, {
+    "id" : 130,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "경상남도산림환경연구원장",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 814, 3057, 508, 50 ]
+  } ]
+}

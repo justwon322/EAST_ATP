@@ -1,0 +1,732 @@
+{
+  "images" : [ {
+    "image.make.code" : "5350046",
+    "image.make.year" : "2004",
+    "image.category" : "주민생활지원",
+    "image.width" : 2480,
+    "image.height" : 3508,
+    "image.file.name" : "5350046-2004-0001-0596.jpg",
+    "image.create.time" : "2021-02-21 03:40:44"
+  } ],
+  "annotations" : [ {
+    "id" : 1,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "중소기업인",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 432, 345, 339, 84 ]
+  }, {
+    "id" : 2,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "<",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 360, 479, 60, 57 ]
+  }, {
+    "id" : 3,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "자격",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 438, 467, 138, 81 ]
+  }, {
+    "id" : 4,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "요건",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 608, 470, 134, 75 ]
+  }, {
+    "id" : 5,
+    "annotation.type" : "rectangle",
+    "annotation.text" : ">",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 767, 485, 50, 47 ]
+  }, {
+    "id" : 6,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "새로운",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 470, 592, 203, 75 ]
+  }, {
+    "id" : 7,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "지식정보의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 702, 592, 335, 78 ]
+  }, {
+    "id" : 8,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "습득·활용과",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1068, 592, 407, 75 ]
+  }, {
+    "id" : 9,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "창의적",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1503, 589, 204, 81 ]
+  }, {
+    "id" : 10,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "발상으로",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1741, 592, 273, 78 ]
+  }, {
+    "id" : 11,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "신제품",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2039, 589, 207, 81 ]
+  }, {
+    "id" : 12,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "개발",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 467, 705, 138, 75 ]
+  }, {
+    "id" : 13,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "·",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 620, 733, 25, 22 ]
+  }, {
+    "id" : 14,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "디자인",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 661, 705, 200, 78 ]
+  }, {
+    "id" : 15,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "혁신",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 902, 702, 135, 78 ]
+  }, {
+    "id" : 16,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "등",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1071, 705, 78, 75 ]
+  }, {
+    "id" : 17,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "고부가가치를",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1178, 705, 401, 78 ]
+  }, {
+    "id" : 18,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "창출하고",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1616, 705, 266, 78 ]
+  }, {
+    "id" : 19,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "지식경영을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1914, 705, 332, 78 ]
+  }, {
+    "id" : 20,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "실천하는",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 470, 817, 266, 79 ]
+  }, {
+    "id" : 21,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "기업인",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 761, 814, 207, 85 ]
+  }, {
+    "id" : 22,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "<",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 363, 987, 60, 50 ]
+  }, {
+    "id" : 23,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "사 례 >",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 438, 974, 254, 78 ]
+  }, {
+    "id" : 25,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "경영정보화",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 467, 1096, 332, 79 ]
+  }, {
+    "id" : 26,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "·",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 808, 1124, 25, 22 ]
+  }, {
+    "id" : 27,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "사내제안제도·",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 849, 1093, 441, 82 ]
+  }, {
+    "id" : 28,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "지식경영",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1294, 1093, 263, 82 ]
+  }, {
+    "id" : 29,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "등",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1588, 1093, 78, 78 ]
+  }, {
+    "id" : 30,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "새로운",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1691, 1096, 201, 75 ]
+  }, {
+    "id" : 31,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "경영기법의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1917, 1090, 326, 85 ]
+  }, {
+    "id" : 32,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "도입과",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 467, 1209, 210, 78 ]
+  }, {
+    "id" : 33,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "경영혁신을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 702, 1209, 338, 78 ]
+  }, {
+    "id" : 34,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "통하여",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1068, 1206, 201, 81 ]
+  }, {
+    "id" : 35,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "생산성",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1303, 1209, 200, 78 ]
+  }, {
+    "id" : 36,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "향상",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1541, 1209, 138, 78 ]
+  }, {
+    "id" : 37,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "및",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1707, 1209, 69, 78 ]
+  }, {
+    "id" : 38,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "합리적인",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1804, 1206, 273, 81 ]
+  }, {
+    "id" : 39,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "기업",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2105, 1206, 138, 81 ]
+  }, {
+    "id" : 40,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "문화정착에",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 467, 1322, 332, 78 ]
+  }, {
+    "id" : 41,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "기여한",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 830, 1319, 210, 81 ]
+  }, {
+    "id" : 42,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "기업인",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1062, 1319, 207, 81 ]
+  }, {
+    "id" : 43,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "독특한",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 475, 1447, 210, 77 ]
+  }, {
+    "id" : 44,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "사업분야를",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 720, 1441, 345, 81 ]
+  }, {
+    "id" : 45,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "개척하여",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1096, 1441, 273, 81 ]
+  }, {
+    "id" : 46,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "해당분야의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1413, 1441, 338, 81 ]
+  }, {
+    "id" : 47,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "경험과",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1792, 1441, 213, 81 ]
+  }, {
+    "id" : 48,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "기술력",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2033, 1438, 210, 84 ]
+  }, {
+    "id" : 49,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "등이",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 476, 1557, 135, 78 ]
+  }, {
+    "id" : 50,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "세계적으로",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 645, 1557, 345, 78 ]
+  }, {
+    "id" : 51,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "독보적인",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1015, 1557, 269, 78 ]
+  }, {
+    "id" : 52,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "위치를",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1316, 1557, 206, 78 ]
+  }, {
+    "id" : 53,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "이룩한",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1550, 1554, 207, 81 ]
+  }, {
+    "id" : 54,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "기업인",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1776, 1554, 210, 84 ]
+  }, {
+    "id" : 55,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "지속적인",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 464, 1676, 263, 81 ]
+  }, {
+    "id" : 56,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "기술개발",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 752, 1676, 272, 81 ]
+  }, {
+    "id" : 57,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "및",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1049, 1679, 72, 78 ]
+  }, {
+    "id" : 58,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "설계",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1140, 1676, 138, 78 ]
+  }, {
+    "id" : 59,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "·",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1300, 1713, 22, 16 ]
+  }, {
+    "id" : 60,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "생산공정의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1337, 1679, 323, 78 ]
+  }, {
+    "id" : 61,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "혁신으로",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1694, 1679, 264, 75 ]
+  }, {
+    "id" : 62,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "신제품을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1983, 1679, 263, 78 ]
+  }, {
+    "id" : 63,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "개발하고",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 467, 1792, 272, 78 ]
+  }, {
+    "id" : 64,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "기술경쟁력강화에",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 761, 1788, 539, 85 ]
+  }, {
+    "id" : 65,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "크게",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1334, 1795, 132, 75 ]
+  }, {
+    "id" : 66,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "기여한",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1497, 1788, 210, 82 ]
+  }, {
+    "id" : 67,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "기업인",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1729, 1788, 207, 82 ]
+  }, {
+    "id" : 68,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "기록",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 460, 1911, 141, 81 ]
+  }, {
+    "id" : 69,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "및",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 614, 1914, 72, 75 ]
+  }, {
+    "id" : 70,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "DB",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 702, 1920, 100, 66 ]
+  }, {
+    "id" : 71,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "등을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 815, 1914, 136, 80 ]
+  }, {
+    "id" : 72,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "통하여",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 965, 1911, 191, 81 ]
+  }, {
+    "id" : 73,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "사회적으로",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1181, 1914, 310, 78 ]
+  }, {
+    "id" : 74,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "정보공유를",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1510, 1914, 313, 78 ]
+  }, {
+    "id" : 75,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "실천한",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1839, 1914, 194, 75 ]
+  }, {
+    "id" : 76,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "기업인",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2042, 1911, 197, 81 ]
+  }, {
+    "id" : 78,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "특허인",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 432, 2155, 204, 81 ]
+  }, {
+    "id" : 79,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "<",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 363, 2293, 57, 53 ]
+  }, {
+    "id" : 80,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "자격",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 442, 2280, 134, 79 ]
+  }, {
+    "id" : 81,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "요건",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 608, 2280, 134, 75 ]
+  }, {
+    "id" : 82,
+    "annotation.type" : "rectangle",
+    "annotation.text" : ">",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 767, 2296, 50, 47 ]
+  }, {
+    "id" : 83,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "새로운",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 464, 2402, 203, 76 ]
+  }, {
+    "id" : 84,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "지식정보의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 695, 2402, 335, 79 ]
+  }, {
+    "id" : 85,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "습득·",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1065, 2402, 188, 72 ]
+  }, {
+    "id" : 86,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "활용과",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1262, 2402, 210, 79 ]
+  }, {
+    "id" : 87,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "창의적",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1500, 2399, 204, 82 ]
+  }, {
+    "id" : 88,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "발상으로",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1738, 2402, 276, 76 ]
+  }, {
+    "id" : 89,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "이전에",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2039, 2399, 204, 82 ]
+  }, {
+    "id" : 90,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "없었던",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 464, 2515, 200, 78 ]
+  }, {
+    "id" : 91,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "독특한",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 705, 2515, 210, 78 ]
+  }, {
+    "id" : 92,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "물질",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 952, 2515, 138, 72 ]
+  }, {
+    "id" : 93,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "·",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1106, 2543, 25, 22 ]
+  }, {
+    "id" : 94,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "기술·",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1149, 2515, 188, 75 ]
+  }, {
+    "id" : 95,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "방법을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1350, 2512, 207, 81 ]
+  }, {
+    "id" : 96,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "창안",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1594, 2512, 144, 81 ]
+  }, {
+    "id" : 98,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "발명하여",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1795, 2515, 269, 78 ]
+  }, {
+    "id" : 99,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "산업",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2105, 2512, 138, 81 ]
+  }, {
+    "id" : 100,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "자산의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 457, 2625, 207, 84 ]
+  }, {
+    "id" : 101,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "증진과",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 692, 2625, 210, 81 ]
+  }, {
+    "id" : 102,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "국가경쟁력",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 924, 2625, 338, 84 ]
+  }, {
+    "id" : 103,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "강화에",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1290, 2625, 207, 84 ]
+  }, {
+    "id" : 104,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "기여한",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1522, 2625, 213, 84 ]
+  }, {
+    "id" : 105,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "특허인",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1757, 2625, 207, 81 ]
+  }, {
+    "id" : 106,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "<사례>",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 366, 2788, 320, 69 ]
+  }, {
+    "id" : 108,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "이전에",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 467, 2900, 200, 82 ]
+  }, {
+    "id" : 109,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "없었던",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 703, 2904, 205, 82 ]
+  }, {
+    "id" : 110,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "새로운",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 943, 2903, 206, 79 ]
+  }, {
+    "id" : 111,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "성질의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1184, 2903, 200, 79 ]
+  }, {
+    "id" : 112,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "물질,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1422, 2907, 160, 75 ]
+  }, {
+    "id" : 113,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "새로운",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1613, 2907, 207, 75 ]
+  }, {
+    "id" : 114,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "구조의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1851, 2907, 201, 75 ]
+  }, {
+    "id" : 115,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "물건,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2086, 2903, 160, 79 ]
+  }, {
+    "id" : 116,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "새로운",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 467, 3019, 200, 76 ]
+  }, {
+    "id" : 117,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "기술,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 680, 3016, 156, 82 ]
+  }, {
+    "id" : 118,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "새로운",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 858, 3019, 201, 76 ]
+  }, {
+    "id" : 119,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "처리방법",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1074, 3016, 260, 82 ]
+  }, {
+    "id" : 120,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "등을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1356, 3016, 141, 82 ]
+  }, {
+    "id" : 121,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "발명한",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1516, 3016, 200, 82 ]
+  }, {
+    "id" : 122,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "특허인",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1735, 3016, 207, 82 ]
+  }, {
+    "id" : 123,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "-",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1171, 3298, 25, 22 ]
+  }, {
+    "id" : 124,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "14 -",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1206, 3286, 103, 47 ]
+  } ]
+}

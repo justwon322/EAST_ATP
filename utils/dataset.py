@@ -7,7 +7,7 @@ import os
 import torch
 import torchvision.transforms as transforms
 from torch.utils import data
-
+import json
 
 def cal_distance(x1, y1, x2, y2):
 	'''calculate the L2 Euclidean distance'''
@@ -360,9 +360,13 @@ def extract_vertices(lines):
 	'''
 	labels = []
 	vertices = []
-	for line in lines:
-		vertices.append(list(map(int,line.rstrip('\n').lstrip('\ufeff').split(',')[:8])))
-		label = 0 if '###' in line else 1
+	for line in lines: # line --> x, y, width, height, 텍스트라벨 로 구성
+		#  왼쪽 위 꼭지점 --> x , y line[0],line[1]
+		# 오른쪽 위 꼭지점 --> x + width , y line[0] + line[2] , line[1]
+		# 오른쪽 아래 꼭지점 --> x + width , y + height line[0] + line[2] , line[1] + line[3]
+		# 왼쪽 아래 꼭지점 --> x , y + height line[0] , line[1] + line[3]
+		vertices.append([line[0],line[1],line[0] + line[2] , line[1] , line[0] + line[2] , line[1] + line[3] , line[0] , line[1] + line[3] ])
+		label = 1 # 0 if '###' in line else 1  # aihub 데이터셋은 모두가 valid 한 데이터셋이므로 무조건 1
 		labels.append(label)
 	return np.array(vertices), np.array(labels)
 
@@ -379,9 +383,18 @@ class custom_dataset(data.Dataset):
 		return len(self.img_files)
 
 	def __getitem__(self, index):
-		with open(self.gt_files[index], 'r') as f:
-			lines = f.readlines()
-		vertices, labels = extract_vertices(lines)
+		with open(self.gt_files[index], 'r',encoding='utf-8') as f:
+			json_data = json.load(f)
+			annotations = json_data["annotations"]
+			list1 = []
+			for i, object in enumerate(annotations):
+				list2 = []
+				# 라벨 : object['annotation.text']
+				list2 = object['annotation.bbox']
+				list2.append(object['annotation.text']) # 없애도됨
+				list1.append(list2)
+
+		vertices,labels = extract_vertices(list1)
 		
 		img = Image.open(self.img_files[index])
 		img, vertices = adjust_height(img, vertices) 

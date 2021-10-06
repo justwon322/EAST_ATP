@@ -1,0 +1,738 @@
+{
+  "images" : [ {
+    "image.make.code" : "5350046",
+    "image.make.year" : "2004",
+    "image.category" : "주민생활지원",
+    "image.width" : 2480,
+    "image.height" : 3508,
+    "image.file.name" : "5350046-2004-0001-0611.jpg",
+    "image.create.time" : "2021-02-21 03:40:59"
+  } ],
+  "annotations" : [ {
+    "id" : 0,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "장마철",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 470, 291, 291, 116 ]
+  }, {
+    "id" : 1,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "수질오염행위",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 792, 291, 564, 116 ]
+  }, {
+    "id" : 2,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "특별감시",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1388, 288, 382, 119 ]
+  }, {
+    "id" : 3,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "철저",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1804, 291, 197, 116 ]
+  }, {
+    "id" : 4,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "장마철,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 373, 655, 213, 78 ]
+  }, {
+    "id" : 5,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "태풍발생",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 611, 655, 250, 75 ]
+  }, {
+    "id" : 6,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "등",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 886, 655, 76, 75 ]
+  }, {
+    "id" : 7,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "집중호우시에는",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 983, 655, 445, 78 ]
+  }, {
+    "id" : 8,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "사업장내",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1450, 655, 260, 78 ]
+  }, {
+    "id" : 9,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "보관·방치하고",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1726, 655, 451, 72 ]
+  }, {
+    "id" : 10,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "있거나",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 373, 780, 200, 78 ]
+  }, {
+    "id" : 11,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "처리중인",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 595, 780, 260, 75 ]
+  }, {
+    "id" : 12,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "폐수,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 883, 783, 154, 72 ]
+  }, {
+    "id" : 13,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "폐기물",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1059, 780, 197, 75 ]
+  }, {
+    "id" : 14,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "등의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1281, 780, 128, 75 ]
+  }, {
+    "id" : 15,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "오염물질이",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1441, 780, 319, 75 ]
+  }, {
+    "id" : 16,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "빗물과",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1795, 780, 197, 75 ]
+  }, {
+    "id" : 17,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "함께",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2014, 780, 132, 75 ]
+  }, {
+    "id" : 18,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "공공수역으로",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 373, 905, 391, 75 ]
+  }, {
+    "id" : 19,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "유입",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 789, 905, 129, 75 ]
+  }, {
+    "id" : 20,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "될",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 946, 905, 69, 72 ]
+  }, {
+    "id" : 21,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "우려가",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1043, 902, 197, 78 ]
+  }, {
+    "id" : 22,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "높음",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1262, 905, 135, 72 ]
+  }, {
+    "id" : 23,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "따라서,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 373, 1043, 203, 75 ]
+  }, {
+    "id" : 24,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "집중호우시",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 595, 1040, 298, 78 ]
+  }, {
+    "id" : 25,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "환경오염을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 915, 1040, 307, 75 ]
+  }, {
+    "id" : 26,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "사전에",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1236, 1042, 182, 78 ]
+  }, {
+    "id" : 27,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "예방하기",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1447, 1040, 238, 78 ]
+  }, {
+    "id" : 28,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "위하여",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1707, 1043, 185, 75 ]
+  }, {
+    "id" : 29,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "오·폐수,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1917, 1046, 250, 66 ]
+  }, {
+    "id" : 30,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "폐기물,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 363, 1156, 210, 78 ]
+  }, {
+    "id" : 31,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "유독성물질",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 592, 1156, 310, 75 ]
+  }, {
+    "id" : 32,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "배출시설",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 924, 1156, 254, 75 ]
+  }, {
+    "id" : 33,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "등을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1196, 1156, 135, 75 ]
+  }, {
+    "id" : 34,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "대상으로",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1350, 1156, 251, 75 ]
+  }, {
+    "id" : 35,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "감시활동",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1622, 1156, 254, 78 ]
+  }, {
+    "id" : 36,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "강화",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1892, 1156, 138, 75 ]
+  }, {
+    "id" : 37,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "□",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 244, 1469, 72, 66 ]
+  }, {
+    "id" : 38,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "중점",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 338, 1460, 132, 78 ]
+  }, {
+    "id" : 39,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "지도,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 495, 1460, 153, 81 ]
+  }, {
+    "id" : 40,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "점검대상",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 667, 1460, 257, 78 ]
+  }, {
+    "id" : 41,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "지역",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 943, 1460, 131, 81 ]
+  }, {
+    "id" : 42,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "및",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1103, 1463, 68, 75 ]
+  }, {
+    "id" : 43,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "관련시설",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1193, 1463, 254, 75 ]
+  }, {
+    "id" : 44,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "폐수,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 395, 1579, 147, 75 ]
+  }, {
+    "id" : 45,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "폐기물",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 561, 1579, 191, 78 ]
+  }, {
+    "id" : 46,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "등",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 764, 1579, 75, 75 ]
+  }, {
+    "id" : 47,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "오염물질을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 855, 1579, 307, 75 ]
+  }, {
+    "id" : 48,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "장기간",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1175, 1579, 194, 78 ]
+  }, {
+    "id" : 49,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "보관,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1381, 1579, 141, 75 ]
+  }, {
+    "id" : 50,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "방치하고",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1544, 1579, 248, 75 ]
+  }, {
+    "id" : 51,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "있는",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1807, 1575, 132, 82 ]
+  }, {
+    "id" : 52,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "사업장",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1951, 1575, 195, 82 ]
+  }, {
+    "id" : 53,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "상수원",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 392, 1726, 169, 75 ]
+  }, {
+    "id" : 54,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "수계",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 561, 1723, 125, 78 ]
+  }, {
+    "id" : 55,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "하천주변의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 698, 1723, 260, 78 ]
+  }, {
+    "id" : 56,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "유기용제",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 965, 1726, 216, 75 ]
+  }, {
+    "id" : 57,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "·",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1184, 1754, 22, 22 ]
+  }, {
+    "id" : 58,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "유독물",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1206, 1726, 172, 75 ]
+  }, {
+    "id" : 59,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "취급업소,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1375, 1723, 222, 81 ]
+  }, {
+    "id" : 60,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "악성폐수(염색,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1607, 1723, 335, 81 ]
+  }, {
+    "id" : 61,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "피혁",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1948, 1723, 125, 81 ]
+  }, {
+    "id" : 62,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "도금",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 395, 1873, 125, 75 ]
+  }, {
+    "id" : 63,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "등)",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 520, 1876, 81, 72 ]
+  }, {
+    "id" : 64,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "배출업소,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 614, 1864, 252, 85 ]
+  }, {
+    "id" : 65,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "축사시설,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 877, 1867, 251, 81 ]
+  }, {
+    "id" : 66,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "반복위반업소,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1143, 1867, 357, 81 ]
+  }, {
+    "id" : 67,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "폐수위",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1513, 1867, 181, 81 ]
+  }, {
+    "id" : 68,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "·",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1710, 1904, 19, 16 ]
+  }, {
+    "id" : 69,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "수탁처리업소",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1735, 1870, 354, 78 ]
+  }, {
+    "id" : 70,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "등",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2095, 1870, 76, 75 ]
+  }, {
+    "id" : 71,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "시설",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 398, 2014, 138, 78 ]
+  }, {
+    "id" : 72,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "또는",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 564, 2020, 138, 72 ]
+  }, {
+    "id" : 73,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "관리가",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 727, 2011, 203, 84 ]
+  }, {
+    "id" : 74,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "부실한",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 951, 2013, 210, 84 ]
+  }, {
+    "id" : 75,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "하·",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1187, 2020, 113, 69 ]
+  }, {
+    "id" : 76,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "폐수",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1306, 2014, 141, 78 ]
+  }, {
+    "id" : 77,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "종말처리시설,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1472, 2011, 407, 84 ]
+  }, {
+    "id" : 78,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "분뇨처리장,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1907, 2014, 342, 81 ]
+  }, {
+    "id" : 79,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "쓰레기매립시설",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 401, 2149, 467, 78 ]
+  }, {
+    "id" : 80,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "등",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 893, 2149, 78, 75 ]
+  }, {
+    "id" : 81,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "환경기초시설",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 993, 2146, 401, 81 ]
+  }, {
+    "id" : 82,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "□",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 244, 2368, 72, 69 ]
+  }, {
+    "id" : 83,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "지도,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 341, 2359, 157, 81 ]
+  }, {
+    "id" : 84,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "점검결과",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 523, 2362, 263, 75 ]
+  }, {
+    "id" : 85,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "조치",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 808, 2362, 132, 75 ]
+  }, {
+    "id" : 86,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "고의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 392, 2481, 134, 75 ]
+  }, {
+    "id" : 87,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "·",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 548, 2512, 19, 13 ]
+  }, {
+    "id" : 88,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "상습적",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 583, 2478, 197, 78 ]
+  }, {
+    "id" : 89,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "환경법령",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 805, 2474, 263, 82 ]
+  }, {
+    "id" : 90,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "위반업소에",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1096, 2478, 323, 78 ]
+  }, {
+    "id" : 91,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "대하여는",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1450, 2478, 266, 78 ]
+  }, {
+    "id" : 92,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "사법조치",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1735, 2478, 260, 78 ]
+  }, {
+    "id" : 93,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "-",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 351, 2653, 44, 38 ]
+  }, {
+    "id" : 94,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "무단방류,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 410, 2625, 232, 75 ]
+  }, {
+    "id" : 95,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "비정상",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 658, 2625, 178, 75 ]
+  }, {
+    "id" : 96,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "가동행위",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 839, 2625, 223, 78 ]
+  }, {
+    "id" : 97,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "등",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1071, 2625, 75, 75 ]
+  }, {
+    "id" : 98,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "고의적",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1153, 2625, 169, 78 ]
+  }, {
+    "id" : 99,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "환경범죄는",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1331, 2622, 285, 78 ]
+  }, {
+    "id" : 100,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "구속수사",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1616, 2622, 232, 81 ]
+  }, {
+    "id" : 101,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "등",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1851, 2625, 75, 75 ]
+  }, {
+    "id" : 102,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "강력",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1926, 2622, 126, 81 ]
+  }, {
+    "id" : 103,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "대처",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2058, 2622, 122, 81 ]
+  }, {
+    "id" : 105,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "행정명령",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 395, 2769, 256, 78 ]
+  }, {
+    "id" : 106,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "이행실태",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 683, 2769, 260, 78 ]
+  }, {
+    "id" : 107,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "확인",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 968, 2769, 135, 78 ]
+  }, {
+    "id" : 108,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "등",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1128, 2769, 75, 78 ]
+  }, {
+    "id" : 109,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "위반업소",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1225, 2769, 266, 78 ]
+  }, {
+    "id" : 110,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "사후관리",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1510, 2766, 263, 81 ]
+  }, {
+    "id" : 111,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "강화",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1798, 2766, 141, 81 ]
+  }, {
+    "id" : 112,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "-",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 354, 2944, 44, 38 ]
+  }, {
+    "id" : 113,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "고의,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 413, 2919, 154, 75 ]
+  }, {
+    "id" : 114,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "상습적",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 586, 2913, 200, 81 ]
+  }, {
+    "id" : 115,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "환경범죄에",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 811, 2913, 329, 81 ]
+  }, {
+    "id" : 116,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "대한",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1165, 2913, 141, 81 ]
+  }, {
+    "id" : 117,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "재발방지대책",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1322, 2913, 394, 81 ]
+  }, {
+    "id" : 118,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "마련,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1738, 2913, 157, 81 ]
+  }, {
+    "id" : 119,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "추진",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1917, 2913, 135, 81 ]
+  }, {
+    "id" : 120,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "-",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1171, 3326, 25, 22 ]
+  }, {
+    "id" : 121,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "27 -",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1206, 3317, 106, 44 ]
+  } ]
+}

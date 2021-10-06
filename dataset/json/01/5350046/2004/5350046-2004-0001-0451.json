@@ -1,0 +1,624 @@
+{
+  "images" : [ {
+    "image.make.code" : "5350046",
+    "image.make.year" : "2004",
+    "image.category" : "주민생활지원",
+    "image.width" : 2480,
+    "image.height" : 3508,
+    "image.file.name" : "5350046-2004-0001-0451.jpg",
+    "image.create.time" : "2021-02-21 03:38:11"
+  } ],
+  "annotations" : [ {
+    "id" : 0,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "칠암도서관",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 918, 536, 704, 115 ]
+  }, {
+    "id" : 1,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "수신자",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 244, 771, 179, 65 ]
+  }, {
+    "id" : 2,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "내부결재",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 504, 771, 235, 65 ]
+  }, {
+    "id" : 3,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "(경유)",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 244, 846, 182, 69 ]
+  }, {
+    "id" : 4,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "제목",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 244, 962, 119, 65 ]
+  }, {
+    "id" : 5,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "산재보험",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 432, 962, 235, 65 ]
+  }, {
+    "id" : 6,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "03년",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 692, 968, 125, 59 ]
+  }, {
+    "id" : 7,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "확정보험료",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 839, 962, 301, 65 ]
+  }, {
+    "id" : 8,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "및",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1159, 962, 63, 65 ]
+  }, {
+    "id" : 9,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "04년",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1240, 965, 129, 62 ]
+  }, {
+    "id" : 10,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "개산보험료",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1394, 962, 297, 65 ]
+  }, {
+    "id" : 11,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "신고",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1713, 962, 126, 65 ]
+  }, {
+    "id" : 12,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "및",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1857, 965, 69, 65 ]
+  }, {
+    "id" : 13,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "납부건의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1948, 962, 235, 65 ]
+  }, {
+    "id" : 14,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "우리",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 435, 1068, 101, 53 ]
+  }, {
+    "id" : 15,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "칠암도서관",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 561, 1065, 256, 56 ]
+  }, {
+    "id" : 16,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "산재보험",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 833, 1065, 204, 56 ]
+  }, {
+    "id" : 17,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "2003년",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1052, 1068, 160, 53 ]
+  }, {
+    "id" : 18,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "확정보험료",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1234, 1065, 257, 56 ]
+  }, {
+    "id" : 19,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "및",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1507, 1068, 56, 53 ]
+  }, {
+    "id" : 20,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "2004년",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1575, 1068, 160, 50 ]
+  }, {
+    "id" : 21,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "개산보험료를",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1757, 1065, 310, 56 ]
+  }, {
+    "id" : 22,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "붙임과",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2083, 1065, 156, 56 ]
+  }, {
+    "id" : 23,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "같이",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 235, 1146, 103, 57 ]
+  }, {
+    "id" : 24,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "신고 및",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 360, 1146, 176, 54 ]
+  }, {
+    "id" : 25,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "납부코자",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 561, 1146, 203, 57 ]
+  }, {
+    "id" : 26,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "건의합니다",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 783, 1146, 257, 57 ]
+  }, {
+    "id" : 27,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "1.예산액",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 432, 1228, 260, 50 ]
+  }, {
+    "id" : 28,
+    "annotation.type" : "rectangle",
+    "annotation.text" : ":",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 708, 1237, 28, 35 ]
+  }, {
+    "id" : 29,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "일금",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 758, 1225, 106, 56 ]
+  }, {
+    "id" : 30,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "이백팔십만육천사백오십원정",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 883, 1225, 652, 56 ]
+  }, {
+    "id" : 31,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "(₩2,806,450)",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1532, 1224, 304, 55 ]
+  }, {
+    "id" : 32,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "(납부액",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 536, 1303, 181, 59 ]
+  }, {
+    "id" : 33,
+    "annotation.type" : "rectangle",
+    "annotation.text" : ":",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 730, 1316, 34, 37 ]
+  }, {
+    "id" : 34,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "155,950원",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 780, 1306, 229, 53 ]
+  }, {
+    "id" : 35,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "+",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1037, 1309, 53, 50 ]
+  }, {
+    "id" : 36,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "2,650,500원",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1099, 1306, 285, 53 ]
+  }, {
+    "id" : 37,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "=",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1406, 1319, 38, 28 ]
+  }, {
+    "id" : 38,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "2,806,450원)",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1450, 1306, 310, 53 ]
+  }, {
+    "id" : 39,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "2.산출근거",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 429, 1388, 254, 53 ]
+  }, {
+    "id" : 40,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "2003년",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 526, 1469, 160, 50 ]
+  }, {
+    "id" : 41,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "확정보험료(18명)",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 708, 1466, 407, 56 ]
+  }, {
+    "id" : 42,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "임금총액",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 561, 1547, 200, 57 ]
+  }, {
+    "id" : 43,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "195,338,500원",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 783, 1547, 326, 54 ]
+  }, {
+    "id" : 44,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "×",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1140, 1554, 44, 40 ]
+  }, {
+    "id" : 45,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "13/1000",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1184, 1547, 185, 54 ]
+  }, {
+    "id" : 46,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "=",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1378, 1560, 41, 28 ]
+  }, {
+    "id" : 47,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "2,539,400원",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1425, 1547, 282, 54 ]
+  }, {
+    "id" : 48,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "기납부액",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 558, 1626, 206, 56 ]
+  }, {
+    "id" : 49,
+    "annotation.type" : "rectangle",
+    "annotation.text" : ":",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 786, 1638, 22, 31 ]
+  }, {
+    "id" : 50,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "2,383,450원",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 827, 1629, 282, 50 ]
+  }, {
+    "id" : 51,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "차",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 561, 1707, 53, 56 ]
+  }, {
+    "id" : 52,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "액",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 711, 1707, 53, 53 ]
+  }, {
+    "id" : 53,
+    "annotation.type" : "rectangle",
+    "annotation.text" : ":",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 786, 1716, 22, 32 ]
+  }, {
+    "id" : 54,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "2,539,400원",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 827, 1707, 282, 53 ]
+  }, {
+    "id" : 55,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "-",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1137, 1726, 25, 15 ]
+  }, {
+    "id" : 56,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "2,383,450원",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1175, 1707, 285, 53 ]
+  }, {
+    "id" : 57,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "=",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1482, 1720, 37, 28 ]
+  }, {
+    "id" : 58,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "155,950원",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1528, 1707, 232, 50 ]
+  }, {
+    "id" : 59,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "(납부할",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1757, 1704, 179, 56 ]
+  }, {
+    "id" : 60,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "금액)",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1958, 1704, 131, 59 ]
+  }, {
+    "id" : 61,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "2004년",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 526, 1788, 160, 51 ]
+  }, {
+    "id" : 62,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "개산보험",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 708, 1785, 203, 57 ]
+  }, {
+    "id" : 63,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "(15명)",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 908, 1785, 157, 57 ]
+  }, {
+    "id" : 64,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "임금총액",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 561, 1867, 200, 56 ]
+  }, {
+    "id" : 65,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "186,000,000원",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 783, 1867, 326, 53 ]
+  }, {
+    "id" : 66,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "×",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1140, 1873, 41, 41 ]
+  }, {
+    "id" : 67,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "15/1000",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1184, 1867, 185, 53 ]
+  }, {
+    "id" : 68,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "=",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1378, 1879, 38, 28 ]
+  }, {
+    "id" : 69,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "2,790,000원",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1428, 1867, 279, 53 ]
+  }, {
+    "id" : 70,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "일시납",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 561, 1945, 153, 56 ]
+  }, {
+    "id" : 71,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "5%",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 727, 1948, 65, 47 ]
+  }, {
+    "id" : 72,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "감액",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 811, 1948, 104, 53 ]
+  }, {
+    "id" : 73,
+    "annotation.type" : "rectangle",
+    "annotation.text" : ":",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 937, 1958, 21, 28 ]
+  }, {
+    "id" : 74,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "2,790,000원",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 977, 1948, 282, 53 ]
+  }, {
+    "id" : 75,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "×",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1290, 1954, 41, 41 ]
+  }, {
+    "id" : 76,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "5%",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1328, 1948, 66, 47 ]
+  }, {
+    "id" : 77,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "=",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1406, 1961, 35, 28 ]
+  }, {
+    "id" : 78,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "139,500원",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1460, 1948, 225, 50 ]
+  }, {
+    "id" : 79,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "납부금액",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 561, 2026, 203, 57 ]
+  }, {
+    "id" : 80,
+    "annotation.type" : "rectangle",
+    "annotation.text" : ":",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 786, 2039, 22, 28 ]
+  }, {
+    "id" : 81,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "2,790,000원",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 827, 2026, 282, 54 ]
+  }, {
+    "id" : 82,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "-",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1137, 2045, 25, 16 ]
+  }, {
+    "id" : 83,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "139,500원",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1184, 2026, 225, 54 ]
+  }, {
+    "id" : 84,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "=",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1431, 2039, 35, 28 ]
+  }, {
+    "id" : 85,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "2,650,500원",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1478, 2026, 282, 54 ]
+  }, {
+    "id" : 86,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "3.납부처",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 429, 2108, 257, 50 ]
+  }, {
+    "id" : 87,
+    "annotation.type" : "rectangle",
+    "annotation.text" : ":",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 708, 2117, 28, 35 ]
+  }, {
+    "id" : 88,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "근로복지공단",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 758, 2105, 307, 59 ]
+  }, {
+    "id" : 89,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "양산지사",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1087, 2105, 200, 59 ]
+  }, {
+    "id" : 90,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "4.납부일",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 429, 2186, 260, 53 ]
+  }, {
+    "id" : 91,
+    "annotation.type" : "rectangle",
+    "annotation.text" : ":",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 705, 2196, 37, 37 ]
+  }, {
+    "id" : 92,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "2004.3.10",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 752, 2189, 238, 50 ]
+  }, {
+    "id" : 93,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "4.예산과목",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 429, 2265, 260, 56 ]
+  }, {
+    "id" : 94,
+    "annotation.type" : "rectangle",
+    "annotation.text" : ":",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 705, 2274, 34, 38 ]
+  }, {
+    "id" : 95,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "교육및문화비,문화예술,칠암도서관운영,경상적경비,일반운영비.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 755, 2265, 1472, 56 ]
+  }, {
+    "id" : 96,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "붙",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 263, 2587, 53, 53 ]
+  }, {
+    "id" : 97,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "임",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 363, 2590, 50, 47 ]
+  }, {
+    "id" : 98,
+    "annotation.type" : "rectangle",
+    "annotation.text" : ":",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 435, 2597, 25, 31 ]
+  }, {
+    "id" : 99,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "신고 및",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 482, 2584, 182, 56 ]
+  }, {
+    "id" : 100,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "납부서",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 686, 2587, 150, 57 ]
+  }, {
+    "id" : 101,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "1부.(별첨)끝",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 858, 2584, 313, 56 ]
+  } ]
+}

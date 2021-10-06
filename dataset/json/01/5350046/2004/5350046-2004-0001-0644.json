@@ -1,0 +1,624 @@
+{
+  "images" : [ {
+    "image.make.code" : "5350046",
+    "image.make.year" : "2004",
+    "image.category" : "주민생활지원",
+    "image.width" : 3508,
+    "image.height" : 2480,
+    "image.file.name" : "5350046-2004-0001-0644.jpg",
+    "image.create.time" : "2021-02-21 03:41:42"
+  } ],
+  "annotations" : [ {
+    "id" : 0,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "라.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 404, 413, 78, 60 ]
+  }, {
+    "id" : 1,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "다중이용시설에",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 498, 407, 379, 69 ]
+  }, {
+    "id" : 2,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "설치되는",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 905, 410, 223, 66 ]
+  }, {
+    "id" : 3,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "환기설비의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1146, 407, 273, 69 ]
+  }, {
+    "id" : 4,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "구조",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1447, 413, 116, 60 ]
+  }, {
+    "id" : 5,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "및",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1582, 410, 59, 63 ]
+  }, {
+    "id" : 6,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "설치기준을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1663, 407, 276, 69 ]
+  }, {
+    "id" : 7,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "규정함",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1958, 407, 172, 69 ]
+  }, {
+    "id" : 8,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "마.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 404, 542, 78, 56 ]
+  }, {
+    "id" : 9,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "신축",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 498, 536, 116, 62 ]
+  }, {
+    "id" : 10,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "공동주택의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 633, 532, 272, 69 ]
+  }, {
+    "id" : 11,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "공기질",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 930, 532, 169, 66 ]
+  }, {
+    "id" : 12,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "측정,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1118, 536, 132, 65 ]
+  }, {
+    "id" : 13,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "제출,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1269, 536, 131, 65 ]
+  }, {
+    "id" : 14,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "공고와",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1419, 539, 169, 62 ]
+  }, {
+    "id" : 15,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "관련하여",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1607, 532, 219, 69 ]
+  }, {
+    "id" : 16,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "필요한",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1848, 536, 175, 62 ]
+  }, {
+    "id" : 17,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "사항들을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2036, 532, 229, 69 ]
+  }, {
+    "id" : 18,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "규정함",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2280, 532, 172, 69 ]
+  }, {
+    "id" : 19,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "바.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 404, 664, 78, 56 ]
+  }, {
+    "id" : 20,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "다중이용시설에",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 498, 658, 379, 69 ]
+  }, {
+    "id" : 21,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "사용을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 902, 658, 169, 66 ]
+  }, {
+    "id" : 22,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "제한하기",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1093, 658, 219, 66 ]
+  }, {
+    "id" : 23,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "위한",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1337, 658, 116, 66 ]
+  }, {
+    "id" : 24,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "오염물질방출건축자재",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1472, 658, 548, 66 ]
+  }, {
+    "id" : 25,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "고시와",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2042, 658, 172, 66 ]
+  }, {
+    "id" : 26,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "관련하여",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2230, 658, 219, 69 ]
+  }, {
+    "id" : 27,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "필요한",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2474, 658, 173, 66 ]
+  }, {
+    "id" : 28,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "사항들을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2662, 658, 226, 66 ]
+  }, {
+    "id" : 29,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "규정함",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2907, 658, 172, 66 ]
+  }, {
+    "id" : 30,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "사.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 407, 796, 78, 56 ]
+  }, {
+    "id" : 31,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "다중이용시설의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 504, 789, 382, 69 ]
+  }, {
+    "id" : 32,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "실내공기질",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 911, 789, 276, 66 ]
+  }, {
+    "id" : 33,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "측정기관,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1212, 789, 238, 69 ]
+  }, {
+    "id" : 34,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "측정대상",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1469, 789, 225, 69 ]
+  }, {
+    "id" : 35,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "오염물질,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1716, 789, 238, 66 ]
+  }, {
+    "id" : 36,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "측정횟수",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1973, 789, 226, 69 ]
+  }, {
+    "id" : 37,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "등과",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2221, 789, 116, 66 ]
+  }, {
+    "id" : 38,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "관련하여",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2355, 789, 223, 69 ]
+  }, {
+    "id" : 39,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "필요한",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2606, 790, 170, 61 ]
+  }, {
+    "id" : 40,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "사항들을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2791, 789, 228, 66 ]
+  }, {
+    "id" : 41,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "규정",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 3038, 789, 113, 66 ]
+  }, {
+    "id" : 42,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "함",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 492, 927, 59, 66 ]
+  }, {
+    "id" : 43,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "아.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 404, 1059, 78, 56 ]
+  }, {
+    "id" : 44,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "다중이용시설의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 504, 1049, 379, 69 ]
+  }, {
+    "id" : 45,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "관리책임자는",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 915, 1049, 332, 69 ]
+  }, {
+    "id" : 46,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "다중이용시설의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1275, 1049, 379, 69 ]
+  }, {
+    "id" : 47,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "환기설비",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1685, 1049, 219, 69 ]
+  }, {
+    "id" : 48,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "현황,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1939, 1052, 128, 66 ]
+  }, {
+    "id" : 49,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "공기질",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2089, 1052, 169, 66 ]
+  }, {
+    "id" : 50,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "측정결과",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2283, 1052, 226, 66 ]
+  }, {
+    "id" : 51,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "등을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2534, 1052, 116, 66 ]
+  }, {
+    "id" : 52,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "매년",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2675, 1052, 113, 63 ]
+  }, {
+    "id" : 53,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "1월",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2816, 1056, 87, 59 ]
+  }, {
+    "id" : 54,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "31일까지",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2925, 1052, 226, 66 ]
+  }, {
+    "id" : 55,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "시",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 495, 1181, 53, 59 ]
+  }, {
+    "id" : 56,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "·",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 567, 1203, 22, 15 ]
+  }, {
+    "id" : 57,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "도지사에게",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 595, 1175, 279, 68 ]
+  }, {
+    "id" : 58,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "보고하도록",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 896, 1181, 279, 59 ]
+  }, {
+    "id" : 59,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "함",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1193, 1178, 66, 65 ]
+  }, {
+    "id" : 61,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "용어설명",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 438, 1425, 254, 75 ]
+  }, {
+    "id" : 62,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "가.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 401, 1563, 81, 59 ]
+  }, {
+    "id" : 63,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "공기",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 501, 1563, 138, 63 ]
+  }, {
+    "id" : 64,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "질:",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 664, 1566, 81, 56 ]
+  }, {
+    "id" : 65,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "사람의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 755, 1560, 169, 66 ]
+  }, {
+    "id" : 66,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "건강이나",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 949, 1560, 226, 66 ]
+  }, {
+    "id" : 67,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "동.식물의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1196, 1563, 229, 63 ]
+  }, {
+    "id" : 68,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "생장에",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1453, 1560, 160, 66 ]
+  }, {
+    "id" : 69,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "영향을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1644, 1560, 166, 66 ]
+  }, {
+    "id" : 70,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "줄",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1832, 1563, 63, 59 ]
+  }, {
+    "id" : 71,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "수",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1911, 1560, 65, 66 ]
+  }, {
+    "id" : 72,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "있는",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1998, 1560, 113, 66 ]
+  }, {
+    "id" : 73,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "가스.입자상",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2127, 1560, 294, 66 ]
+  }, {
+    "id" : 74,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "부유물질등에",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2443, 1560, 326, 66 ]
+  }, {
+    "id" : 75,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "의하여",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2797, 1560, 163, 66 ]
+  }, {
+    "id" : 76,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "표시되",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2985, 1560, 166, 66 ]
+  }, {
+    "id" : 77,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "는",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 755, 1691, 62, 54 ]
+  }, {
+    "id" : 78,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "공기의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 833, 1682, 166, 69 ]
+  }, {
+    "id" : 79,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "상태를",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1024, 1682, 172, 66 ]
+  }, {
+    "id" : 80,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "말함.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1215, 1685, 129, 63 ]
+  }, {
+    "id" : 81,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "나.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 404, 1817, 78, 56 ]
+  }, {
+    "id" : 82,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "환기설비:",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 498, 1807, 244, 69 ]
+  }, {
+    "id" : 83,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "오염된",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 755, 1810, 169, 63 ]
+  }, {
+    "id" : 84,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "다중이용시설공간의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 946, 1807, 489, 69 ]
+  }, {
+    "id" : 85,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "공기를",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1460, 1807, 169, 69 ]
+  }, {
+    "id" : 86,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "외부로",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1651, 1807, 169, 66 ]
+  }, {
+    "id" : 87,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "배출하고",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1839, 1807, 225, 66 ]
+  }, {
+    "id" : 88,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "신선한",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2083, 1807, 172, 66 ]
+  }, {
+    "id" : 89,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "외부공기를",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2274, 1807, 276, 69 ]
+  }, {
+    "id" : 90,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "유입하여",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2568, 1807, 223, 69 ]
+  }, {
+    "id" : 91,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "다중이용",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2813, 1807, 222, 69 ]
+  }, {
+    "id" : 92,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "시설등의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 755, 1933, 219, 65 ]
+  }, {
+    "id" : 93,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "실내공기를",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 996, 1933, 279, 65 ]
+  }, {
+    "id" : 94,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "쾌적한",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1297, 1933, 172, 65 ]
+  }, {
+    "id" : 95,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "상태로",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1485, 1933, 169, 65 ]
+  }, {
+    "id" : 96,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "유지시키는",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1676, 1933, 278, 68 ]
+  }, {
+    "id" : 97,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "설비로서",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1973, 1933, 219, 65 ]
+  }, {
+    "id" : 98,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "중앙공기조화설비.국배기설비",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2214, 1933, 774, 68 ]
+  }, {
+    "id" : 99,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "및",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 3016, 1936, 57, 62 ]
+  }, {
+    "id" : 100,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "그",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 749, 2061, 72, 56 ]
+  }, {
+    "id" : 101,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "부대시설을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 833, 2058, 279, 66 ]
+  }, {
+    "id" : 102,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "말함",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1137, 2058, 113, 66 ]
+  } ]
+}

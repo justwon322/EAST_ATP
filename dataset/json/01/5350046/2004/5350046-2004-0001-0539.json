@@ -1,0 +1,846 @@
+{
+  "images" : [ {
+    "image.make.code" : "5350046",
+    "image.make.year" : "2004",
+    "image.category" : "주민생활지원",
+    "image.width" : 2480,
+    "image.height" : 3508,
+    "image.file.name" : "5350046-2004-0001-0539.jpg",
+    "image.create.time" : "2021-02-21 03:39:39"
+  } ],
+  "annotations" : [ {
+    "id" : 0,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "국내",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 235, 329, 153, 91 ]
+  }, {
+    "id" : 1,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "유통중인",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 398, 329, 285, 88 ]
+  }, {
+    "id" : 2,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "닭고기",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 698, 329, 210, 88 ]
+  }, {
+    "id" : 3,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "·오리고기는",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 918, 332, 394, 81 ]
+  }, {
+    "id" : 4,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "모두",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1322, 329, 153, 84 ]
+  }, {
+    "id" : 5,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "안심하고",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1488, 329, 285, 91 ]
+  }, {
+    "id" : 6,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "드셔도",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1785, 329, 220, 84 ]
+  }, {
+    "id" : 7,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "됩니다.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2014, 329, 232, 91 ]
+  }, {
+    "id" : 8,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "①",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 213, 595, 75, 69 ]
+  }, {
+    "id" : 9,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "가금인푸루엔자에",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 313, 589, 520, 78 ]
+  }, {
+    "id" : 10,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "감염되었거나",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 861, 586, 401, 84 ]
+  }, {
+    "id" : 11,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "감염될",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1281, 589, 204, 78 ]
+  }, {
+    "id" : 12,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "우려가",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1510, 586, 206, 84 ]
+  }, {
+    "id" : 13,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "있는",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1738, 589, 141, 81 ]
+  }, {
+    "id" : 14,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "닭과",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1901, 586, 141, 81 ]
+  }, {
+    "id" : 15,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "오리는",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2064, 592, 207, 75 ]
+  }, {
+    "id" : 16,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "모두",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 316, 698, 144, 76 ]
+  }, {
+    "id" : 17,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "폐기처분",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 489, 695, 275, 82 ]
+  }, {
+    "id" : 18,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "하였으며,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 792, 695, 301, 85 ]
+  }, {
+    "id" : 19,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "비발생지역의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1115, 692, 404, 85 ]
+  }, {
+    "id" : 20,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "닭·",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1560, 702, 116, 65 ]
+  }, {
+    "id" : 21,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "오리고기중",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1685, 695, 348, 82 ]
+  }, {
+    "id" : 22,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "검사에",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2058, 695, 207, 82 ]
+  }, {
+    "id" : 23,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "합격한",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 319, 802, 210, 81 ]
+  }, {
+    "id" : 24,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "것만",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 551, 802, 144, 78 ]
+  }, {
+    "id" : 25,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "시중에",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 717, 802, 204, 81 ]
+  }, {
+    "id" : 26,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "유통되고",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 949, 802, 279, 81 ]
+  }, {
+    "id" : 27,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "있습니다.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1253, 802, 294, 81 ]
+  }, {
+    "id" : 29,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "가금인푸루엔자",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 351, 933, 429, 79 ]
+  }, {
+    "id" : 30,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "발생농장뿐아니라",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 805, 930, 489, 85 ]
+  }, {
+    "id" : 31,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "발생농장으로부터",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1319, 933, 476, 79 ]
+  }, {
+    "id" : 32,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "반경",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1829, 933, 129, 79 ]
+  }, {
+    "id" : 33,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "3km이내의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1980, 933, 285, 82 ]
+  }, {
+    "id" : 34,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "모든",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 354, 1043, 141, 72 ]
+  }, {
+    "id" : 35,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "닭과",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 520, 1040, 147, 78 ]
+  }, {
+    "id" : 36,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "오리",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 689, 1043, 135, 75 ]
+  }, {
+    "id" : 37,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "및",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 858, 1043, 69, 75 ]
+  }, {
+    "id" : 38,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "알은",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 958, 1043, 138, 72 ]
+  }, {
+    "id" : 39,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "폐기처분",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1121, 1040, 273, 78 ]
+  }, {
+    "id" : 40,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "하였습니다.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1422, 1037, 357, 84 ]
+  }, {
+    "id" : 41,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "②",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 216, 1222, 72, 65 ]
+  }, {
+    "id" : 42,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "가금인푸루엔자",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 316, 1215, 483, 79 ]
+  }, {
+    "id" : 43,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "발생국가(태국",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 827, 1209, 442, 85 ]
+  }, {
+    "id" : 44,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "·",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1281, 1240, 28, 22 ]
+  }, {
+    "id" : 45,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "베트남·미국·",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1328, 1215, 457, 72 ]
+  }, {
+    "id" : 46,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "일본·중국",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1795, 1215, 344, 72 ]
+  }, {
+    "id" : 47,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "등)",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2161, 1212, 113, 78 ]
+  }, {
+    "id" : 48,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "로부터는",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 316, 1322, 273, 78 ]
+  }, {
+    "id" : 49,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "닭고기",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 611, 1322, 203, 78 ]
+  }, {
+    "id" : 50,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "·",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 836, 1347, 28, 22 ]
+  }, {
+    "id" : 51,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "오리고기",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 877, 1322, 272, 78 ]
+  }, {
+    "id" : 52,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "및",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1181, 1322, 72, 78 ]
+  }, {
+    "id" : 53,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "알을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1281, 1319, 138, 78 ]
+  }, {
+    "id" : 54,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "모두",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1444, 1322, 144, 75 ]
+  }, {
+    "id" : 55,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "수입금지",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1607, 1319, 275, 81 ]
+  }, {
+    "id" : 56,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "하였습니다",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1911, 1316, 347, 84 ]
+  }, {
+    "id" : 57,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "③",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 213, 1500, 72, 63 ]
+  }, {
+    "id" : 58,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "설령",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 313, 1491, 138, 81 ]
+  }, {
+    "id" : 59,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "가금인푸루엔자에",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 479, 1494, 520, 78 ]
+  }, {
+    "id" : 60,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "걸린",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1030, 1494, 135, 75 ]
+  }, {
+    "id" : 61,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "닭이나",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1190, 1491, 207, 81 ]
+  }, {
+    "id" : 62,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "오리고기라",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1416, 1494, 335, 78 ]
+  }, {
+    "id" : 63,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "하더라도",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1776, 1494, 269, 78 ]
+  }, {
+    "id" : 64,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "익혀서",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2067, 1491, 194, 81 ]
+  }, {
+    "id" : 65,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "먹으면",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 319, 1597, 213, 82 ]
+  }, {
+    "id" : 66,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "안전합니다",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 561, 1597, 357, 85 ]
+  }, {
+    "id" : 68,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "우리나라는",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 354, 1726, 344, 84 ]
+  }, {
+    "id" : 69,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "식생활습관상",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 736, 1726, 410, 84 ]
+  }, {
+    "id" : 70,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "닭고기와",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1184, 1729, 279, 81 ]
+  }, {
+    "id" : 71,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "오리고기를",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1500, 1732, 342, 75 ]
+  }, {
+    "id" : 72,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "익혀서",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1886, 1726, 197, 84 ]
+  }, {
+    "id" : 73,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "먹기",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2130, 1726, 135, 84 ]
+  }, {
+    "id" : 74,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "때문에",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 354, 1835, 200, 82 ]
+  }, {
+    "id" : 75,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "감염의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 583, 1835, 203, 82 ]
+  }, {
+    "id" : 76,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "우려가",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 818, 1830, 211, 86 ]
+  }, {
+    "id" : 77,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "없습니다.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1052, 1832, 289, 85 ]
+  }, {
+    "id" : 78,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "④",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 216, 2017, 69, 63 ]
+  }, {
+    "id" : 79,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "세계적으로",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 319, 2011, 358, 78 ]
+  }, {
+    "id" : 80,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "닭고기",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 708, 2011, 213, 78 ]
+  }, {
+    "id" : 81,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "·오리고기를",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 937, 2011, 404, 75 ]
+  }, {
+    "id" : 82,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "먹고",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1378, 2011, 147, 78 ]
+  }, {
+    "id" : 83,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "인간이",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1557, 2008, 210, 81 ]
+  }, {
+    "id" : 84,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "감염된",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1804, 2008, 216, 81 ]
+  }, {
+    "id" : 85,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "사례는",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2052, 2011, 219, 78 ]
+  }, {
+    "id" : 86,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "아직까지",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 326, 2114, 279, 85 ]
+  }, {
+    "id" : 87,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "없습니다",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 639, 2114, 288, 85 ]
+  }, {
+    "id" : 89,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "태국과",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 351, 2246, 200, 81 ]
+  }, {
+    "id" : 90,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "베트남",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 579, 2246, 201, 81 ]
+  }, {
+    "id" : 91,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "등에서",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 808, 2246, 197, 81 ]
+  }, {
+    "id" : 92,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "사람이",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1037, 2246, 200, 81 ]
+  }, {
+    "id" : 93,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "감염된",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1272, 2246, 197, 81 ]
+  }, {
+    "id" : 94,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "것은",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1503, 2246, 138, 81 ]
+  }, {
+    "id" : 95,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "살아있는",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1666, 2246, 273, 81 ]
+  }, {
+    "id" : 96,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "닭을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1964, 2246, 141, 81 ]
+  }, {
+    "id" : 97,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "직접",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2130, 2246, 135, 81 ]
+  }, {
+    "id" : 98,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "접촉하였기",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 348, 2352, 335, 82 ]
+  }, {
+    "id" : 99,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "때문이며,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 714, 2352, 288, 82 ]
+  }, {
+    "id" : 100,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "도축장에서",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1027, 2352, 335, 82 ]
+  }, {
+    "id" : 101,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "위생적으로",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1400, 2355, 338, 79 ]
+  }, {
+    "id" : 102,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "도축된",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1763, 2355, 204, 76 ]
+  }, {
+    "id" : 103,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "닭고기를",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1998, 2355, 273, 79 ]
+  }, {
+    "id" : 104,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "시중에서",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 348, 2459, 269, 81 ]
+  }, {
+    "id" : 105,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "구입하여",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 645, 2459, 273, 81 ]
+  }, {
+    "id" : 106,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "먹고",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 946, 2459, 144, 78 ]
+  }, {
+    "id" : 107,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "감염된",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1112, 2459, 207, 81 ]
+  }, {
+    "id" : 108,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "사례는",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1344, 2459, 213, 81 ]
+  }, {
+    "id" : 109,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "없습니다.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1582, 2456, 291, 84 ]
+  }, {
+    "id" : 110,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "⑤",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 216, 2631, 75, 69 ]
+  }, {
+    "id" : 111,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "미국의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 316, 2622, 207, 84 ]
+  }, {
+    "id" : 112,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "질병관리센터(CDC)에서",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 564, 2628, 739, 78 ]
+  }, {
+    "id" : 113,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "바이러스",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1337, 2625, 279, 81 ]
+  }, {
+    "id" : 114,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "예비검사",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1648, 2622, 275, 84 ]
+  }, {
+    "id" : 115,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "결과",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1951, 2625, 148, 81 ]
+  }, {
+    "id" : 116,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "우리",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2124, 2625, 141, 81 ]
+  }, {
+    "id" : 117,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "나라의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 323, 2731, 209, 82 ]
+  }, {
+    "id" : 118,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "가금인푸루엔자",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 570, 2734, 498, 79 ]
+  }, {
+    "id" : 119,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "바이러스는",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1103, 2734, 350, 79 ]
+  }, {
+    "id" : 120,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "베트남",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1491, 2734, 213, 79 ]
+  }, {
+    "id" : 121,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "것과",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1735, 2731, 147, 82 ]
+  }, {
+    "id" : 122,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "유전적으로",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1914, 2734, 357, 79 ]
+  }, {
+    "id" : 123,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "다르고",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 326, 2841, 216, 78 ]
+  }, {
+    "id" : 124,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "그",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 567, 2850, 75, 57 ]
+  }, {
+    "id" : 125,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "기원도",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 667, 2838, 219, 81 ]
+  }, {
+    "id" : 126,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "다른",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 911, 2838, 148, 81 ]
+  }, {
+    "id" : 127,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "것으로",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1087, 2841, 216, 75 ]
+  }, {
+    "id" : 128,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "밝혀졌습니다.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1328, 2835, 448, 84 ]
+  }, {
+    "id" : 130,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "국립보건원(질병관리본부)에서",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 354, 2967, 865, 81 ]
+  }, {
+    "id" : 131,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "발생농가의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1250, 2966, 304, 85 ]
+  }, {
+    "id" : 132,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "가족,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1582, 2969, 147, 82 ]
+  }, {
+    "id" : 133,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "살처분",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1757, 2969, 194, 82 ]
+  }, {
+    "id" : 134,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "종사자",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1976, 2969, 195, 79 ]
+  }, {
+    "id" : 135,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "등",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2192, 2969, 79, 79 ]
+  }, {
+    "id" : 136,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "감염위험이",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 348, 3073, 294, 84 ]
+  }, {
+    "id" : 137,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "높은",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 658, 3079, 138, 75 ]
+  }, {
+    "id" : 138,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "1,594명을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 808, 3079, 276, 75 ]
+  }, {
+    "id" : 139,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "조사하였으나",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1099, 3073, 386, 84 ]
+  }, {
+    "id" : 140,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "감염된",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1500, 3076, 194, 78 ]
+  }, {
+    "id" : 141,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "사람은",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1713, 3073, 201, 84 ]
+  }, {
+    "id" : 142,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "없었습니다.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1933, 3073, 328, 84 ]
+  } ]
+}

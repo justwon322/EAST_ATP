@@ -1,0 +1,498 @@
+{
+  "images" : [ {
+    "image.make.code" : "5350046",
+    "image.make.year" : "2004",
+    "image.category" : "주민생활지원",
+    "image.width" : 3508,
+    "image.height" : 2480,
+    "image.file.name" : "5350046-2004-0001-0642.jpg",
+    "image.create.time" : "2021-02-21 03:41:40"
+  } ],
+  "annotations" : [ {
+    "id" : 0,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "2.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 401, 417, 53, 53 ]
+  }, {
+    "id" : 1,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "연면적",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 479, 407, 160, 69 ]
+  }, {
+    "id" : 2,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "2천제곱미터이상인",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 658, 407, 473, 69 ]
+  }, {
+    "id" : 3,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "지하도상가(연속되어",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1156, 407, 510, 69 ]
+  }, {
+    "id" : 4,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "있는",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1698, 410, 116, 66 ]
+  }, {
+    "id" : 5,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "2이상의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1829, 410, 197, 66 ]
+  }, {
+    "id" : 6,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "지하도상가의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2052, 407, 332, 69 ]
+  }, {
+    "id" : 7,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "연면적",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2412, 407, 163, 69 ]
+  }, {
+    "id" : 8,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "합계가",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2606, 407, 169, 69 ]
+  }, {
+    "id" : 9,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "2천제곱미터이",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2791, 407, 360, 69 ]
+  }, {
+    "id" : 10,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "상인",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 451, 536, 113, 62 ]
+  }, {
+    "id" : 11,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "경우를",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 586, 531, 173, 68 ]
+  }, {
+    "id" : 12,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "포함한다)",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 771, 532, 253, 69 ]
+  }, {
+    "id" : 13,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "3.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 401, 667, 56, 50 ]
+  }, {
+    "id" : 14,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "연면적",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 473, 658, 163, 66 ]
+  }, {
+    "id" : 15,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "2천제곱미터이상인",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 655, 658, 469, 66 ]
+  }, {
+    "id" : 16,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "여객자동차터미널의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1149, 658, 489, 66 ]
+  }, {
+    "id" : 17,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "대합실,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1663, 658, 182, 69 ]
+  }, {
+    "id" : 18,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "공항시설중",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 457, 783, 279, 66 ]
+  }, {
+    "id" : 19,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "여객터미널,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 755, 783, 294, 69 ]
+  }, {
+    "id" : 20,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "항만시설중",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1068, 783, 276, 66 ]
+  }, {
+    "id" : 21,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "대합실,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1366, 783, 181, 66 ]
+  }, {
+    "id" : 22,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "도서관,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1563, 783, 188, 66 ]
+  }, {
+    "id" : 23,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "박물관",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1770, 783, 169, 66 ]
+  }, {
+    "id" : 24,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "또는",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1958, 789, 115, 57 ]
+  }, {
+    "id" : 25,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "미술관",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2092, 783, 169, 66 ]
+  }, {
+    "id" : 26,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "4.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 401, 918, 53, 50 ]
+  }, {
+    "id" : 27,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "연면적",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 473, 908, 163, 66 ]
+  }, {
+    "id" : 28,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "2천제곱미터이상이거나",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 655, 902, 583, 72 ]
+  }, {
+    "id" : 29,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "입원",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1259, 908, 110, 66 ]
+  }, {
+    "id" : 30,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "진료",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1391, 908, 116, 63 ]
+  }, {
+    "id" : 31,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "병상이",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1528, 908, 163, 66 ]
+  }, {
+    "id" : 32,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "100개이상인",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1713, 908, 307, 66 ]
+  }, {
+    "id" : 33,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "의료기관",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2042, 908, 223, 66 ]
+  }, {
+    "id" : 34,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "5.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 401, 1040, 53, 50 ]
+  }, {
+    "id" : 35,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "연면적",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 473, 1030, 166, 69 ]
+  }, {
+    "id" : 36,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "2천제곱미터이상인",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 655, 1030, 469, 69 ]
+  }, {
+    "id" : 37,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "실내주차장(공동주택",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1146, 1030, 514, 69 ]
+  }, {
+    "id" : 38,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "등에",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1685, 1030, 110, 66 ]
+  }, {
+    "id" : 39,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "부속되어",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1820, 1030, 219, 69 ]
+  }, {
+    "id" : 40,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "특정인들이",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2064, 1030, 273, 69 ]
+  }, {
+    "id" : 41,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "주로",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2362, 1034, 116, 62 ]
+  }, {
+    "id" : 42,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "이용하는",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2499, 1034, 223, 62 ]
+  }, {
+    "id" : 43,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "실내주차장은",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2741, 1030, 332, 69 ]
+  }, {
+    "id" : 44,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "제",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 3095, 1034, 59, 62 ]
+  }, {
+    "id" : 45,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "외한다)",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 454, 1156, 191, 69 ]
+  }, {
+    "id" : 46,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "6.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 401, 1290, 53, 51 ]
+  }, {
+    "id" : 47,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "바닥면적",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 470, 1281, 222, 66 ]
+  }, {
+    "id" : 48,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "2천제곱미터이상인",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 708, 1281, 473, 69 ]
+  }, {
+    "id" : 49,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "철도역사의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1203, 1281, 272, 66 ]
+  }, {
+    "id" : 50,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "대합실",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1500, 1281, 166, 66 ]
+  }, {
+    "id" : 51,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "시행령상",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 432, 1500, 226, 66 ]
+  }, {
+    "id" : 52,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "대상면적",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 673, 1500, 220, 66 ]
+  }, {
+    "id" : 53,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "1.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 404, 1638, 47, 47 ]
+  }, {
+    "id" : 54,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "장사등에관한법률에",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 470, 1626, 492, 65 ]
+  }, {
+    "id" : 55,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "의한",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 987, 1629, 116, 62 ]
+  }, {
+    "id" : 56,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "장례식장중",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1121, 1626, 276, 65 ]
+  }, {
+    "id" : 57,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "연면적",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1422, 1626, 163, 65 ]
+  }, {
+    "id" : 58,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "1천제곱미터이상인",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1604, 1626, 469, 68 ]
+  }, {
+    "id" : 59,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "것",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2099, 1632, 56, 59 ]
+  }, {
+    "id" : 60,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "2.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 401, 1760, 53, 54 ]
+  }, {
+    "id" : 61,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "영유아보육법에",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 473, 1751, 379, 69 ]
+  }, {
+    "id" : 62,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "의한",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 877, 1754, 119, 63 ]
+  }, {
+    "id" : 63,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "보육시설중",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1012, 1751, 278, 69 ]
+  }, {
+    "id" : 64,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "연면적",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1312, 1751, 163, 66 ]
+  }, {
+    "id" : 65,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "1천제곱미터이상인",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1494, 1751, 470, 69 ]
+  }, {
+    "id" : 66,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "것",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1989, 1757, 56, 60 ]
+  }, {
+    "id" : 67,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "3.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 401, 1882, 53, 51 ]
+  }, {
+    "id" : 68,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "노인복지법에",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 467, 1873, 329, 69 ]
+  }, {
+    "id" : 69,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "의한",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 824, 1876, 116, 66 ]
+  }, {
+    "id" : 70,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "노인복지시설중",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 955, 1873, 389, 69 ]
+  }, {
+    "id" : 71,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "연면적",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1369, 1876, 163, 66 ]
+  }, {
+    "id" : 72,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "1천제곱미터이상인",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1547, 1873, 470, 69 ]
+  }, {
+    "id" : 73,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "것",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2045, 1882, 54, 60 ]
+  }, {
+    "id" : 74,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "4.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 401, 2011, 56, 50 ]
+  }, {
+    "id" : 75,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "건축법에",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 470, 2001, 219, 66 ]
+  }, {
+    "id" : 76,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "의한",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 714, 2001, 119, 66 ]
+  }, {
+    "id" : 77,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "업무시설로서",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 852, 1998, 326, 69 ]
+  }, {
+    "id" : 78,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "연면적",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1206, 2001, 160, 66 ]
+  }, {
+    "id" : 79,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "3천제곱미터이상인",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1384, 1998, 470, 69 ]
+  }, {
+    "id" : 80,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "것",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1882, 2005, 54, 59 ]
+  } ]
+}

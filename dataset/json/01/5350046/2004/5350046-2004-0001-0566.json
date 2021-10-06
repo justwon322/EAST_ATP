@@ -1,0 +1,516 @@
+{
+  "images" : [ {
+    "image.make.code" : "5350046",
+    "image.make.year" : "2004",
+    "image.category" : "주민생활지원",
+    "image.width" : 2480,
+    "image.height" : 3508,
+    "image.file.name" : "5350046-2004-0001-0566.jpg",
+    "image.create.time" : "2021-02-21 03:40:09"
+  } ],
+  "annotations" : [ {
+    "id" : 0,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "김해시립도서관설치및관리조례시행규칙안",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 241, 407, 2002, 119 ]
+  }, {
+    "id" : 1,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "1.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 172, 680, 66, 62 ]
+  }, {
+    "id" : 2,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "제정이유",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 263, 667, 285, 85 ]
+  }, {
+    "id" : 4,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "2002.4.1",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 298, 874, 216, 63 ]
+  }, {
+    "id" : 5,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "장유도서관",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 539, 868, 300, 72 ]
+  }, {
+    "id" : 6,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "개관으로",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 864, 868, 242, 69 ]
+  }, {
+    "id" : 7,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "인하여",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1134, 868, 175, 75 ]
+  }, {
+    "id" : 8,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "장유도서관과",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1341, 868, 357, 72 ]
+  }, {
+    "id" : 9,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "기존의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1720, 868, 178, 69 ]
+  }, {
+    "id" : 10,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "칠암도서관을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1933, 868, 353, 72 ]
+  }, {
+    "id" : 11,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "김해시립도서관으로",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 288, 983, 533, 73 ]
+  }, {
+    "id" : 12,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "통합",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 839, 987, 129, 72 ]
+  }, {
+    "id" : 13,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "운영하기",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 987, 983, 235, 76 ]
+  }, {
+    "id" : 14,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "위하여",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1250, 987, 175, 72 ]
+  }, {
+    "id" : 16,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "2002.4.13",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 307, 1109, 247, 59 ]
+  }, {
+    "id" : 17,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "김해시",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 586, 1099, 178, 76 ]
+  }, {
+    "id" : 18,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "공보",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 802, 1103, 122, 65 ]
+  }, {
+    "id" : 19,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "제112호에",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 958, 1103, 264, 68 ]
+  }, {
+    "id" : 20,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "의하여",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1265, 1103, 179, 72 ]
+  }, {
+    "id" : 21,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "기존의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1478, 1103, 179, 68 ]
+  }, {
+    "id" : 22,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "김해시칠암도서관관리",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1698, 1103, 585, 68 ]
+  }, {
+    "id" : 23,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "운영조례가",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 294, 1218, 298, 69 ]
+  }, {
+    "id" : 24,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "폐지되고",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 614, 1218, 241, 69 ]
+  }, {
+    "id" : 25,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "김해시립도서관설치및관리조례가",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 880, 1218, 883, 72 ]
+  }, {
+    "id" : 26,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "제정됨에",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1782, 1218, 241, 72 ]
+  }, {
+    "id" : 27,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "따라",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2045, 1218, 129, 72 ]
+  }, {
+    "id" : 28,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "김",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2224, 1222, 59, 65 ]
+  }, {
+    "id" : 29,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "해시칠암도서관관리운영조례시행규칙을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 294, 1334, 1034, 72 ]
+  }, {
+    "id" : 30,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "폐지하고",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1372, 1337, 235, 66 ]
+  }, {
+    "id" : 31,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "김해시립도서관설치및관",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1654, 1334, 632, 72 ]
+  }, {
+    "id" : 32,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "리조례시행규칙을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 294, 1450, 461, 72 ]
+  }, {
+    "id" : 33,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "제정",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 780, 1453, 119, 72 ]
+  }, {
+    "id" : 34,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "운영코자",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 924, 1447, 236, 71 ]
+  }, {
+    "id" : 35,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "함.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1181, 1456, 75, 66 ]
+  }, {
+    "id" : 36,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "김해시립도서관설치및관리조례의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 298, 1707, 877, 72 ]
+  }, {
+    "id" : 37,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "시행에",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1209, 1710, 182, 72 ]
+  }, {
+    "id" : 38,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "관하여",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1425, 1710, 179, 72 ]
+  }, {
+    "id" : 39,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "필요한",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1638, 1710, 185, 69 ]
+  }, {
+    "id" : 40,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "사항을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1848, 1710, 188, 72 ]
+  }, {
+    "id" : 41,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "규정하기",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2061, 1710, 241, 75 ]
+  }, {
+    "id" : 42,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "위하여",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 291, 1801, 179, 75 ]
+  }, {
+    "id" : 43,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "기존의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 495, 1801, 185, 75 ]
+  }, {
+    "id" : 44,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "김해시칠암도서관관리운영조례시행규칙을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 711, 1801, 1115, 72 ]
+  }, {
+    "id" : 45,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "폐지하고",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1851, 1801, 251, 75 ]
+  }, {
+    "id" : 46,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "동규칙",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2120, 1801, 182, 75 ]
+  }, {
+    "id" : 47,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "을 제정코자",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 288, 1895, 332, 72 ]
+  }, {
+    "id" : 48,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "함.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 639, 1898, 81, 63 ]
+  }, {
+    "id" : 49,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "2.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 166, 2089, 72, 60 ]
+  }, {
+    "id" : 50,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "주요내용",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 263, 2083, 285, 78 ]
+  }, {
+    "id" : 51,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "가.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 210, 2271, 81, 66 ]
+  }, {
+    "id" : 52,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "김해시칠암도서관관리운영조례시행규칙을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 323, 2268, 1115, 72 ]
+  }, {
+    "id" : 53,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "폐지하고",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1478, 2268, 238, 69 ]
+  }, {
+    "id" : 54,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "김해시립도서관설치",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1754, 2268, 526, 72 ]
+  }, {
+    "id" : 55,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "및관리조례시행규칙을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 301, 2384, 589, 68 ]
+  }, {
+    "id" : 56,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "제정",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 911, 2387, 119, 65 ]
+  }, {
+    "id" : 57,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "나.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 210, 2503, 84, 65 ]
+  }, {
+    "id" : 58,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "지정좌석제",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 313, 2499, 298, 76 ]
+  }, {
+    "id" : 59,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "폐지",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 633, 2503, 119, 68 ]
+  }, {
+    "id" : 60,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "다.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 213, 2622, 78, 62 ]
+  }, {
+    "id" : 61,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "관장은",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 313, 2618, 182, 69 ]
+  }, {
+    "id" : 62,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "이용가치",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 520, 2618, 235, 73 ]
+  }, {
+    "id" : 63,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "소멸",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 780, 2622, 119, 62 ]
+  }, {
+    "id" : 64,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "및",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 927, 2622, 60, 65 ]
+  }, {
+    "id" : 65,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "파손자료",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1012, 2618, 241, 69 ]
+  }, {
+    "id" : 66,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "시장의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1275, 2618, 178, 73 ]
+  }, {
+    "id" : 67,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "승인을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1482, 2618, 178, 69 ]
+  }, {
+    "id" : 68,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "받아",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1685, 2618, 122, 69 ]
+  }, {
+    "id" : 69,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "폐기",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1832, 2618, 116, 73 ]
+  }, {
+    "id" : 70,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "라.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 213, 2737, 81, 63 ]
+  }, {
+    "id" : 71,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "조례와",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 310, 2734, 185, 69 ]
+  }, {
+    "id" : 72,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "중복되는",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 517, 2734, 241, 72 ]
+  }, {
+    "id" : 73,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "규정",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 777, 2737, 122, 66 ]
+  }, {
+    "id" : 74,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "정비",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 927, 2734, 116, 72 ]
+  }, {
+    "id" : 75,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "마.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 210, 2853, 84, 66 ]
+  }, {
+    "id" : 76,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "시설사용료의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 313, 2850, 354, 75 ]
+  }, {
+    "id" : 77,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "납입",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 692, 2853, 122, 72 ]
+  }, {
+    "id" : 78,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "규정",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 836, 2853, 126, 72 ]
+  }, {
+    "id" : 79,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "신설",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 983, 2850, 120, 69 ]
+  }, {
+    "id" : 80,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "주요내용을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 345, 2969, 300, 69 ]
+  }, {
+    "id" : 81,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "요약·",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 670, 2976, 169, 62 ]
+  }, {
+    "id" : 82,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "열거한",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 843, 2969, 187, 75 ]
+  }, {
+    "id" : 83,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "후",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1046, 2969, 75, 72 ]
+  }, {
+    "id" : 85,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "표기하여",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1525, 2969, 242, 75 ]
+  }, {
+    "id" : 86,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "전면재작성",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1792, 2969, 297, 75 ]
+  } ]
+}

@@ -1,0 +1,570 @@
+{
+  "images" : [ {
+    "image.make.code" : "5350046",
+    "image.make.year" : "2004",
+    "image.category" : "주민생활지원",
+    "image.width" : 2480,
+    "image.height" : 3508,
+    "image.file.name" : "5350046-2004-0001-0594.jpg",
+    "image.create.time" : "2021-02-21 03:40:41"
+  } ],
+  "annotations" : [ {
+    "id" : 0,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "<",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 229, 360, 56, 50 ]
+  }, {
+    "id" : 1,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "붙임",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 294, 351, 123, 66 ]
+  }, {
+    "id" : 2,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "#1",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 438, 360, 76, 47 ]
+  }, {
+    "id" : 3,
+    "annotation.type" : "rectangle",
+    "annotation.text" : ">",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 529, 360, 54, 50 ]
+  }, {
+    "id" : 4,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "분야별",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 460, 479, 354, 129 ]
+  }, {
+    "id" : 5,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "「신지식인」",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 866, 478, 623, 131 ]
+  }, {
+    "id" : 6,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "자격요건",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1541, 479, 473, 129 ]
+  }, {
+    "id" : 8,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "<",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 360, 930, 60, 57 ]
+  }, {
+    "id" : 9,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "자격",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 438, 921, 138, 78 ]
+  }, {
+    "id" : 10,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "요건",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 605, 921, 137, 75 ]
+  }, {
+    "id" : 11,
+    "annotation.type" : "rectangle",
+    "annotation.text" : ">",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 767, 933, 50, 47 ]
+  }, {
+    "id" : 12,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "새로운",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 470, 1049, 203, 75 ]
+  }, {
+    "id" : 13,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "지식정보의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 698, 1049, 329, 79 ]
+  }, {
+    "id" : 14,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "습득·",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1059, 1049, 184, 75 ]
+  }, {
+    "id" : 15,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "활용과",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1253, 1049, 210, 79 ]
+  }, {
+    "id" : 16,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "농업생산의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1482, 1046, 335, 82 ]
+  }, {
+    "id" : 17,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "개선",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1842, 1046, 144, 82 ]
+  }, {
+    "id" : 18,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "·",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2001, 1077, 25, 22 ]
+  }, {
+    "id" : 19,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "혁신을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2042, 1046, 204, 82 ]
+  }, {
+    "id" : 20,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "통해",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 467, 1168, 134, 79 ]
+  }, {
+    "id" : 21,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "고부가가치를",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 636, 1165, 404, 85 ]
+  }, {
+    "id" : 22,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "창출하고",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1074, 1168, 267, 79 ]
+  }, {
+    "id" : 23,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "공유하여",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1372, 1165, 266, 82 ]
+  }, {
+    "id" : 24,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "농업발전에",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1673, 1165, 332, 82 ]
+  }, {
+    "id" : 25,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "기여한",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2039, 1165, 210, 85 ]
+  }, {
+    "id" : 26,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "농업인",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 464, 1284, 206, 85 ]
+  }, {
+    "id" : 27,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "<사례>",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 366, 1453, 320, 72 ]
+  }, {
+    "id" : 29,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "독특한",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 470, 1579, 203, 78 ]
+  }, {
+    "id" : 30,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "작물",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 692, 1579, 141, 78 ]
+  }, {
+    "id" : 31,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "재배",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 852, 1575, 138, 82 ]
+  }, {
+    "id" : 32,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "및",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1021, 1579, 72, 78 ]
+  }, {
+    "id" : 33,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "농산물의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1115, 1579, 260, 78 ]
+  }, {
+    "id" : 34,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "저장",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1403, 1575, 141, 82 ]
+  }, {
+    "id" : 35,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "·",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1557, 1607, 25, 25 ]
+  }, {
+    "id" : 36,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "가공",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1591, 1582, 141, 75 ]
+  }, {
+    "id" : 37,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "기술개발로",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1757, 1579, 329, 78 ]
+  }, {
+    "id" : 38,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "품질",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2108, 1575, 138, 82 ]
+  }, {
+    "id" : 39,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "향상",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 470, 1694, 144, 82 ]
+  }, {
+    "id" : 40,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "및",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 639, 1701, 69, 75 ]
+  }, {
+    "id" : 41,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "비용을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 736, 1694, 207, 82 ]
+  }, {
+    "id" : 42,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "절감한",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 968, 1698, 210, 78 ]
+  }, {
+    "id" : 43,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "농업인",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1200, 1694, 206, 82 ]
+  }, {
+    "id" : 45,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "유통구조",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 470, 1829, 263, 75 ]
+  }, {
+    "id" : 46,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "개선을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 752, 1826, 200, 78 ]
+  }, {
+    "id" : 47,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "위하여",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 971, 1823, 197, 81 ]
+  }, {
+    "id" : 48,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "전자상거래",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1196, 1826, 323, 81 ]
+  }, {
+    "id" : 49,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "·",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1532, 1857, 25, 22 ]
+  }, {
+    "id" : 50,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "직판",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1566, 1826, 141, 75 ]
+  }, {
+    "id" : 51,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "등",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1729, 1826, 78, 78 ]
+  }, {
+    "id" : 52,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "새로운",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1829, 1826, 197, 78 ]
+  }, {
+    "id" : 53,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "판로를",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2048, 1829, 198, 75 ]
+  }, {
+    "id" : 54,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "개척한",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 467, 1945, 210, 81 ]
+  }, {
+    "id" : 55,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "농업인",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 698, 1942, 207, 81 ]
+  }, {
+    "id" : 57,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "영농조합",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 473, 2073, 272, 82 ]
+  }, {
+    "id" : 58,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "등을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 777, 2073, 141, 79 ]
+  }, {
+    "id" : 59,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "결성하여",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 949, 2070, 269, 85 ]
+  }, {
+    "id" : 60,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "농촌의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1253, 2070, 203, 82 ]
+  }, {
+    "id" : 61,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "변화를",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1497, 2077, 204, 75 ]
+  }, {
+    "id" : 62,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "촉진하고",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1735, 2073, 276, 79 ]
+  }, {
+    "id" : 63,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "농업의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2036, 2070, 207, 85 ]
+  }, {
+    "id" : 64,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "구조개선을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 473, 2196, 341, 78 ]
+  }, {
+    "id" : 65,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "선도한",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 839, 2196, 207, 75 ]
+  }, {
+    "id" : 66,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "농업인",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1068, 2192, 207, 82 ]
+  }, {
+    "id" : 67,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "기록",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 464, 2321, 137, 81 ]
+  }, {
+    "id" : 68,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "및",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 617, 2324, 69, 78 ]
+  }, {
+    "id" : 69,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "DB",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 702, 2330, 103, 63 ]
+  }, {
+    "id" : 70,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "등을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 815, 2328, 136, 76 ]
+  }, {
+    "id" : 71,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "통하여",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 968, 2321, 188, 81 ]
+  }, {
+    "id" : 72,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "사회적으로",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1178, 2324, 313, 78 ]
+  }, {
+    "id" : 73,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "정보공유를",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1510, 2324, 313, 78 ]
+  }, {
+    "id" : 74,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "실천한",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1839, 2324, 197, 75 ]
+  }, {
+    "id" : 75,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "농업인",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2042, 2321, 197, 81 ]
+  }, {
+    "id" : 77,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "어업인",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 435, 2568, 201, 79 ]
+  }, {
+    "id" : 78,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "<",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 366, 2712, 47, 47 ]
+  }, {
+    "id" : 79,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "자격",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 438, 2697, 138, 78 ]
+  }, {
+    "id" : 80,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "요건>",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 605, 2697, 184, 75 ]
+  }, {
+    "id" : 81,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "새로운",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 470, 2825, 203, 78 ]
+  }, {
+    "id" : 82,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "지식정보의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 698, 2825, 329, 78 ]
+  }, {
+    "id" : 83,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "습득·",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1059, 2825, 184, 75 ]
+  }, {
+    "id" : 84,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "활용과",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1253, 2825, 210, 78 ]
+  }, {
+    "id" : 85,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "어업생산의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1485, 2822, 332, 81 ]
+  }, {
+    "id" : 86,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "개선",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1845, 2822, 141, 81 ]
+  }, {
+    "id" : 87,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "·",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2001, 2857, 25, 21 ]
+  }, {
+    "id" : 88,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "혁신을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2042, 2822, 204, 81 ]
+  }, {
+    "id" : 89,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "통해",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 467, 2941, 134, 82 ]
+  }, {
+    "id" : 90,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "고부가가치를",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 639, 2944, 401, 79 ]
+  }, {
+    "id" : 91,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "창출하고",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1074, 2944, 267, 79 ]
+  }, {
+    "id" : 92,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "공유하여",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1372, 2941, 266, 82 ]
+  }, {
+    "id" : 93,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "어업발전에",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1676, 2941, 332, 82 ]
+  }, {
+    "id" : 94,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "기여한",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2039, 2941, 210, 85 ]
+  }, {
+    "id" : 95,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "어업인",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 465, 3064, 205, 84 ]
+  }, {
+    "id" : 96,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "-",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1175, 3304, 21, 16 ]
+  }, {
+    "id" : 97,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "12-",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1206, 3286, 106, 47 ]
+  } ]
+}

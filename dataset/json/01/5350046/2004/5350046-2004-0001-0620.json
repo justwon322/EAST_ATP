@@ -1,0 +1,624 @@
+{
+  "images" : [ {
+    "image.make.code" : "5350046",
+    "image.make.year" : "2004",
+    "image.category" : "주민생활지원",
+    "image.width" : 2480,
+    "image.height" : 3508,
+    "image.file.name" : "5350046-2004-0001-0620.jpg",
+    "image.create.time" : "2021-02-21 03:41:11"
+  } ],
+  "annotations" : [ {
+    "id" : 0,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "주택세",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 667, 285, 270, 119 ]
+  }, {
+    "id" : 1,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "과세자료",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 962, 285, 385, 119 ]
+  }, {
+    "id" : 2,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "일제",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1384, 285, 188, 116 ]
+  }, {
+    "id" : 3,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "정비",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1610, 285, 191, 116 ]
+  }, {
+    "id" : 4,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "'05",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 238, 542, 107, 69 ]
+  }, {
+    "id" : 5,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "지방세제",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 370, 536, 260, 81 ]
+  }, {
+    "id" : 6,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "개편에",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 658, 536, 200, 81 ]
+  }, {
+    "id" : 7,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "따라",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 883, 536, 144, 81 ]
+  }, {
+    "id" : 8,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "주택세",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1046, 536, 201, 81 ]
+  }, {
+    "id" : 9,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "과세를",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1272, 536, 206, 81 ]
+  }, {
+    "id" : 10,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "위한",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1497, 536, 147, 81 ]
+  }, {
+    "id" : 11,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "토지,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1660, 542, 160, 75 ]
+  }, {
+    "id" : 12,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "건물과세자료",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1842, 539, 394, 78 ]
+  }, {
+    "id" : 13,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "일제정비에",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 247, 642, 336, 82 ]
+  }, {
+    "id" : 14,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "적극",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 612, 640, 145, 83 ]
+  }, {
+    "id" : 15,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "협조해",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 780, 642, 203, 82 ]
+  }, {
+    "id" : 16,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "주시기",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1012, 642, 203, 85 ]
+  }, {
+    "id" : 17,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "바람.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1243, 642, 160, 82 ]
+  }, {
+    "id" : 19,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "일제정비",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 288, 921, 301, 88 ]
+  }, {
+    "id" : 20,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "개요",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 623, 924, 160, 85 ]
+  }, {
+    "id" : 21,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "정비기간:",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 294, 1059, 329, 75 ]
+  }, {
+    "id" : 22,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "2004.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 636, 1065, 166, 66 ]
+  }, {
+    "id" : 23,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "11.1",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 821, 1068, 166, 60 ]
+  }, {
+    "id" : 24,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "~",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1021, 1084, 47, 22 ]
+  }, {
+    "id" : 25,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "2005.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1103, 1068, 169, 63 ]
+  }, {
+    "id" : 26,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "4.",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1284, 1071, 69, 57 ]
+  }, {
+    "id" : 27,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "30(5개월간)",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1362, 1059, 367, 84 ]
+  }, {
+    "id" : 28,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "정비대상",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 291, 1222, 276, 81 ]
+  }, {
+    "id" : 29,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "-",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 304, 1378, 34, 28 ]
+  }, {
+    "id" : 30,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "재산세",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 360, 1341, 204, 81 ]
+  }, {
+    "id" : 31,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "과세",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 595, 1341, 138, 81 ]
+  }, {
+    "id" : 32,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "자료상",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 761, 1344, 210, 78 ]
+  }, {
+    "id" : 33,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "건물지번과",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 996, 1344, 341, 78 ]
+  }, {
+    "id" : 34,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "실제지번의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1366, 1344, 332, 78 ]
+  }, {
+    "id" : 35,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "불일치",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1729, 1341, 200, 81 ]
+  }, {
+    "id" : 36,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "자료",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1961, 1344, 144, 78 ]
+  }, {
+    "id" : 37,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "-",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 304, 1497, 37, 28 ]
+  }, {
+    "id" : 38,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "과세대장의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 360, 1460, 338, 81 ]
+  }, {
+    "id" : 39,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "주민(법인)등록번호의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 726, 1463, 649, 90 ]
+  }, {
+    "id" : 40,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "오류",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1406, 1466, 144, 75 ]
+  }, {
+    "id" : 41,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "및",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1572, 1463, 76, 78 ]
+  }, {
+    "id" : 42,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "결번",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1673, 1463, 141, 78 ]
+  }, {
+    "id" : 43,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "자료",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1839, 1466, 141, 75 ]
+  }, {
+    "id" : 44,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "정비방법",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 291, 1626, 273, 81 ]
+  }, {
+    "id" : 45,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "-",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 304, 1782, 34, 28 ]
+  }, {
+    "id" : 46,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "지방세",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 359, 1748, 204, 83 ]
+  }, {
+    "id" : 47,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "전산프로그램을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 598, 1751, 470, 75 ]
+  }, {
+    "id" : 48,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "보완하여",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1096, 1748, 266, 78 ]
+  }, {
+    "id" : 49,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "정비대상",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1394, 1745, 275, 81 ]
+  }, {
+    "id" : 50,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "추출",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1694, 1748, 141, 78 ]
+  }, {
+    "id" : 51,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "-",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 301, 1898, 40, 38 ]
+  }, {
+    "id" : 52,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "주택에",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 360, 1867, 204, 81 ]
+  }, {
+    "id" : 53,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "대한",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 598, 1870, 144, 78 ]
+  }, {
+    "id" : 54,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "현지",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 761, 1867, 138, 81 ]
+  }, {
+    "id" : 55,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "실사를",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 930, 1870, 207, 78 ]
+  }, {
+    "id" : 56,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "통하여",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1162, 1867, 200, 81 ]
+  }, {
+    "id" : 57,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "정비",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1394, 1867, 138, 78 ]
+  }, {
+    "id" : 58,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "건축물",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 482, 1992, 188, 75 ]
+  }, {
+    "id" : 59,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "일제조사",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 695, 1992, 245, 75 ]
+  }, {
+    "id" : 60,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "및",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 962, 1992, 59, 72 ]
+  }, {
+    "id" : 61,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "토지형태조사와",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1046, 1992, 429, 75 ]
+  }, {
+    "id" : 62,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "병행",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1494, 1992, 122, 75 ]
+  }, {
+    "id" : 63,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "실시",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1641, 1992, 122, 75 ]
+  }, {
+    "id" : 64,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "시군",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 288, 2221, 157, 84 ]
+  }, {
+    "id" : 65,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "협조사항",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 476, 2221, 307, 84 ]
+  }, {
+    "id" : 66,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "시군별",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 306, 2359, 204, 76 ]
+  }, {
+    "id" : 67,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "자체",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 539, 2355, 138, 79 ]
+  }, {
+    "id" : 68,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "과세자료",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 708, 2355, 272, 79 ]
+  }, {
+    "id" : 69,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "정비계획",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1005, 2355, 270, 79 ]
+  }, {
+    "id" : 70,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "수립",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1303, 2352, 141, 82 ]
+  }, {
+    "id" : 71,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "시행",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1472, 2352, 138, 82 ]
+  }, {
+    "id" : 73,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "인력",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 310, 2487, 135, 81 ]
+  }, {
+    "id" : 74,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "및 예산",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 473, 2490, 241, 75 ]
+  }, {
+    "id" : 75,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "확보",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 739, 2487, 141, 78 ]
+  }, {
+    "id" : 76,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "-",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 304, 2656, 34, 28 ]
+  }, {
+    "id" : 77,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "현지조사수요",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 366, 2622, 373, 78 ]
+  }, {
+    "id" : 78,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "인력을",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 755, 2618, 191, 82 ]
+  }, {
+    "id" : 79,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "파악하여",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 958, 2618, 251, 85 ]
+  }, {
+    "id" : 80,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "부족인력에",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1228, 2618, 313, 82 ]
+  }, {
+    "id" : 81,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "대한",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1560, 2618, 138, 82 ]
+  }, {
+    "id" : 82,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "조사인부임",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1713, 2622, 307, 78 ]
+  }, {
+    "id" : 83,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "확보",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2042, 2625, 138, 75 ]
+  }, {
+    "id" : 84,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "-",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 301, 2784, 40, 35 ]
+  }, {
+    "id" : 85,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "건축물대장",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 360, 2756, 320, 75 ]
+  }, {
+    "id" : 86,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "·지적도",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 680, 2756, 235, 75 ]
+  }, {
+    "id" : 87,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "복사,",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 932, 2755, 151, 82 ]
+  }, {
+    "id" : 88,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "사진대",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1096, 2753, 191, 82 ]
+  }, {
+    "id" : 89,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "등",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1306, 2753, 75, 78 ]
+  }, {
+    "id" : 90,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "조사에",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1397, 2756, 188, 79 ]
+  }, {
+    "id" : 91,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "수반되는",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1607, 2756, 257, 79 ]
+  }, {
+    "id" : 92,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "예산",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1876, 2753, 138, 78 ]
+  }, {
+    "id" : 93,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "확보",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 2030, 2756, 131, 75 ]
+  }, {
+    "id" : 94,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "지적·",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 307, 2891, 160, 75 ]
+  }, {
+    "id" : 95,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "건축",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 485, 2891, 160, 75 ]
+  }, {
+    "id" : 96,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "정보화",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 661, 2888, 210, 81 ]
+  }, {
+    "id" : 97,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "등",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 896, 2888, 75, 78 ]
+  }, {
+    "id" : 98,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "관련부서와의",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 996, 2888, 404, 81 ]
+  }, {
+    "id" : 99,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "긴밀한",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1428, 2888, 210, 78 ]
+  }, {
+    "id" : 100,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "협조체제",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1666, 2891, 267, 75 ]
+  }, {
+    "id" : 101,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "구축",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1961, 2888, 144, 81 ]
+  }, {
+    "id" : 102,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "-",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1175, 3364, 15, 12 ]
+  }, {
+    "id" : 103,
+    "annotation.type" : "rectangle",
+    "annotation.text" : "10-",
+    "annotation.ttype" : "textType1",
+    "annotation.bbox" : [ 1209, 3348, 103, 44 ]
+  } ]
+}
