@@ -3,10 +3,10 @@ import torch.nn as nn
 import torch.utils.model_zoo as model_zoo
 import torch.nn.functional as F
 import math
-from modules.transformation import TPS_SpatialTransformerNetwork
-from modules.feature_extraction import VGG_FeatureExtractor, RCNN_FeatureExtractor, ResNet_FeatureExtractor
-from modules.sequence_modeling import BidirectionalLSTM
-from modules.prediction import Attention
+from utils.modules.transformation import TPS_SpatialTransformerNetwork
+from utils.modules.feature_extraction import ResNet_FeatureExtractor
+from utils.modules.sequence_modeling import BidirectionalLSTM
+from utils.modules.prediction import Attention
 
 cfg = [64, 64, 'M', 128, 128, 'M', 256, 256, 256, 'M', 512, 512, 512, 'M', 512, 512, 512, 'M']
 
@@ -67,7 +67,7 @@ class extractor(nn.Module): # feature extractor stem
 		super(extractor, self).__init__()
 		vgg16_bn = VGG(make_layers(cfg, batch_norm=True))
 		if pretrained:
-			vgg16_bn.load_state_dict(torch.load('./pths/vgg16_bn-6c64b313.pth'))
+			vgg16_bn.load_state_dict(torch.load('./utils/pths/vgg16_bn-6c64b313.pth'))
 		self.features = vgg16_bn.features
 	
 	def forward(self, x):
@@ -171,11 +171,11 @@ class EAST(nn.Module):
 		return self.output(self.merge(self.extractor(x)))
 
 
-
-class detectionModel(nn.Module):
+#해당모델은 recognition 파트 의 모델
+class recognitionModel(nn.Module):
 
     def __init__(self, num_class):
-        super(detectionModel, self).__init__()
+        super(recognitionModel, self).__init__()
         self.num_class = num_class
         self.stages = {'Trans': True, 'Feat': True,
                        'Seq': True, 'Pred': True}
