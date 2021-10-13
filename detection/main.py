@@ -192,7 +192,7 @@ def detect_dataset(model, device, test_img_path, submit_path):
 
 if __name__ == '__main__':
     img_path = './dataset/ICDAR_2015/test_img/5350046-2004-0001-0392.JPG'
-    model_path = './utils/pths/model_epoch_120.pth'
+    model_path = './utils/pths/model_epoch_600.pth'
     res_img = './output/out.jpg'
     txt_path = './utils/temp/box_cord'
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
@@ -212,8 +212,6 @@ if __name__ == '__main__':
         f.write('\n')
     f.close()
     #######################################################
-
-
 
     plot_img = plot_boxes(img, boxes)
     plot_img.save(res_img)

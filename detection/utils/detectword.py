@@ -10,9 +10,9 @@ import itertools
 def convertCoordination():
     my_loc = []
     len_loc = []
-    txt_path = './utils/temp'#
+    txt_path = r'../'
     txt_dir = glob.glob(txt_path + '/*.txt')
-    img_path = './output'
+    img_path = r'../'
     img_dir = glob.glob(img_path + '/*.jpg')
     for _img, _txt in zip(img_dir, txt_dir):
         # 빈 리스트 생성
@@ -83,7 +83,7 @@ def convertCoordination():
 # 만들어낸 loc 리스트를 불러와 좌표값에 따른 이미지 추출하여 저장
 def read_img_by_coord(loc):
     img_list = []
-    img_path = './output'
+    img_path = r'../'
     img_dir = glob.glob(img_path + '/*.jpg')
     for _img, _loc in zip(img_dir, loc):
         print("make image", os.path.basename(_img[:-4]))

@@ -1,5 +1,13 @@
 import torch
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+import numpy as np 
+import random
+
+def set_seed(seed):
+    torch.manual_seed(seed)
+    np.random.seed(seed)
+    torch.cuda.manual_seed(seed)
+    torch.cuda.manual_seed_all(seed)
+    random.seed(seed)
 
 class AttnLabelConverter(object):
     """ Convert between text-label and text-index """

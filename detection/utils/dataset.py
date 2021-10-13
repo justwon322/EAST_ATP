@@ -360,12 +360,14 @@ def extract_vertices(lines):
 	'''
 	labels = []
 	vertices = []
-	for line in lines: # line --> x, y, width, height, 텍스트라벨 로 구성
+	for line in lines: 
+		# TODO 아래 내역들 한번 더 확인 부탁드립니다~
+		# line --> x, y, width, height, 텍스트라벨 로 구성
 		#  왼쪽 위 꼭지점 --> x , y line[0],line[1]
 		# 오른쪽 위 꼭지점 --> x + width , y line[0] + line[2] , line[1]
 		# 오른쪽 아래 꼭지점 --> x + width , y + height line[0] + line[2] , line[1] + line[3]
 		# 왼쪽 아래 꼭지점 --> x , y + height line[0] , line[1] + line[3]
-		vertices.append([line[0],line[1],line[0] + line[2] , line[1] , line[0] + line[2] , line[1] + line[3] , line[0] , line[1] + line[3] ])
+		vertices.append([line[0],line[1],line[0] + line[2] , line[1] , line[0] + line[2] , line[1] + line[3] , line[0] , line[1] + line[3] ]) #TODO Check
 		label = 1 # 0 if '###' in line else 1  # aihub 데이터셋은 모두가 valid 한 데이터셋이므로 무조건 1
 		labels.append(label)
 	return np.array(vertices), np.array(labels)
@@ -374,8 +376,9 @@ def extract_vertices(lines):
 class custom_dataset(data.Dataset):
 	def __init__(self, img_path, gt_path, scale=0.25, length=512):
 		super(custom_dataset, self).__init__()
-		self.img_files = [os.path.join(img_path, img_file) for img_file in sorted(os.listdir(img_path))]
-		self.gt_files  = [os.path.join(gt_path, gt_file) for gt_file in sorted(os.listdir(gt_path))]
+
+		self.img_files = img_path
+		self.gt_files  = gt_path
 		self.scale = scale
 		self.length = length
 
@@ -386,15 +389,14 @@ class custom_dataset(data.Dataset):
 		with open(self.gt_files[index], 'r',encoding='utf-8') as f:
 			json_data = json.load(f)
 			annotations = json_data["annotations"]
-			list1 = []
+			bounding_boxs = []
 			for i, object in enumerate(annotations):
-				list2 = []
-				# 라벨 : object['annotation.text']
-				list2 = object['annotation.bbox']
-				list2.append(object['annotation.text']) # 없애도됨
-				list1.append(list2)
 
-		vertices,labels = extract_vertices(list1)
+				# text = object['annotation.text']
+				# bounding_box = object['annotation.bbox']
+				bounding_boxs.append(object['annotation.bbox'])
+
+		vertices,labels = extract_vertices(bounding_boxs)
 		
 		img = Image.open(self.img_files[index])
 		img, vertices = adjust_height(img, vertices) 
@@ -406,4 +408,3 @@ class custom_dataset(data.Dataset):
 		
 		score_map, geo_map, ignored_map = get_score_geo(img, vertices, labels, self.scale, self.length)
 		return transform(img), score_map, geo_map, ignored_map
-
