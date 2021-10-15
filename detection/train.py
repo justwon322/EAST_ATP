@@ -103,7 +103,7 @@ def main():
 	# parser
 	parser = argparse.ArgumentParser(description="---#---")
 
-	parser.add_argument("--batch_size", default=2, type=int)  # batch size가 성능에도 직접적으로 영향을 끼친다
+	parser.add_argument("--batch_size", default=4, type=int)  # batch size가 성능에도 직접적으로 영향을 끼친다
 	parser.add_argument("--lr", default=1e-3, type=float)
 	parser.add_argument("--gpu_device", default=0, type=int)
 	parser.add_argument('--seed', type=int, default=1) # seed 성능 재연을 위해서 필수적인 부분이고.
