@@ -182,7 +182,8 @@ def train(opt):
                 if current_accuracy > best_accuracy:
                     best_accuracy = current_accuracy
                     torch.save(model.state_dict(), f'./saved_models/{opt.exp_name}/best_accuracy.pth')
-                if current_norm_ED > best_norm_ED:
+                if current_norm_ED > best_norm_ED: # norm_ED --> https://arxiv.org/pdf/1909.07741.pdf 참조 3.DATASETS 의 B.TASK2 부분에 Normalized Edit Distance (N.E.D) 나옴
+
                     best_norm_ED = current_norm_ED
                     torch.save(model.state_dict(), f'./saved_models/{opt.exp_name}/best_norm_ED.pth')
                 best_model_log = f'{"Best_accuracy":17s}: {best_accuracy:0.3f}, {"Best_norm_ED":17s}: {best_norm_ED:0.2f}'
@@ -238,7 +239,7 @@ if __name__ == '__main__':
     parser.add_argument('--rho', type=float, default=0.95, help='decay rate rho for Adadelta. default=0.95')
     parser.add_argument('--eps', type=float, default=1e-8, help='eps for Adadelta. default=1e-8')
     parser.add_argument('--grad_clip', type=float, default=5, help='gradient clipping value. default=5')
-    parser.add_argument('--baiduCTC', action='store_true', help='for data_filtering_off mode')
+    parser.add_argument('--baiduCTC', action='store_true',default=False, help='for data_filtering_off mode')
     """ Data processing """
     parser.add_argument('--select_data', type=str, default='/',
                         help='select training data (default is MJ-ST, which means MJ and ST used as training data)')

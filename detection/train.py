@@ -27,12 +27,12 @@ def train(args):
 	trainset, validset, testset = data.Subset(dataset,train_), data.Subset(dataset,valid_) ,data.Subset(dataset,test_)
 
 	train_loader = data.DataLoader(trainset, batch_size=args.batch_size, shuffle=True, drop_last=True, pin_memory=True)
-	valid_loader = data.DataLoader(validset, batch_size=args.batch_size, shuffle=True, drop_last=True, pin_memory=True)
-	test_loader = data.DataLoader(testset, batch_size=args.batch_size, shuffle=False, drop_last=False, pin_memory=True)
+	valid_loader = data.DataLoader(trainset, batch_size=args.batch_size, shuffle=True, drop_last=True, pin_memory=True)
+	test_loader = data.DataLoader(trainset, batch_size=args.batch_size, shuffle=False, drop_last=False, pin_memory=True)
 
 	criterion = Loss()
 	device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-	model = EAST(w=args.w, d=args.d,pretrained=args.pretrained).to(device)
+	model = EAST(w=args.w, d=args.d,pretrained=args.pretrained).to(device).cuda()
 
 	if args.distributed & torch.cuda.device_count() > 1:
 		model = nn.DataParallel(model)
@@ -40,6 +40,7 @@ def train(args):
 	optimizer = torch.optim.Adam(model.parameters(), lr=args.lr) # 0.0003
 	scheduler = lr_scheduler.MultiStepLR(optimizer, milestones=[args.epochs//2], gamma=0.1)
 	best_loss = np.inf
+	mini_batch_size = int(file_num/args.batch_size)
 
 	for epoch in range(args.epochs):	
 		model.train()
@@ -53,45 +54,62 @@ def train(args):
 			epoch_loss += loss.item()
 			optimizer.zero_grad()
 			loss.backward()
-			optimizer.step()
 
+			optimizer.step()
 			print('Epoch is [{}/{}], mini-batch is [{}/{}], time consumption is {:.8f}, batch_loss is {:.8f}'.format(
-              epoch+1, args.epochs, i+1, int(file_num/args.batch_size), time.time()-start_time, loss.item()))
+              epoch+1, args.epochs, i+1, mini_batch_size , time.time()-start_time, loss.item()))
 		
-		print('epoch_loss is {:.8f}, epoch_time is {:.8f}'.format(epoch_loss/int(file_num/args.batch_size), time.time()-epoch_time))
-		args.writer.add_scalar('Train loss',epoch_loss/int(file_num/args.batch_size),epoch)
+		print('epoch_loss is {:.8f}, epoch_time is {:.8f}'.format(epoch_loss/mini_batch_size, time.time()-epoch_time))
+		args.writer.add_scalar('Train loss',epoch_loss/mini_batch_size,epoch)
 		print(time.asctime(time.localtime(time.time())))
 		print('='*50)
-
-		if (epoch + 1) % args.interval == 0:
-			valid_epoch_loss = 0
-			# with torch.no_grad():
-				# for i, (img, gt_score, gt_geo, ignored_map) in enumerate(train_loader):
-			#
-			'''
-			model.eval()
-			for i, (v_img, v_gt_score, v_gt_geo, v_ignored_map) in enumerate(valid_loader):
-				v_img, gt_score, gt_geo, ignored_map = v_img.to(device), v_gt_score.to(device), v_gt_geo.to(
-					device), v_ignored_map.to(device)
-				v_pred_score, v_pred_geo = model(v_img)
-				valid_loss = criterion(v_gt_score, v_pred_score, v_gt_geo, v_pred_geo, v_ignored_map) + model.regularisation().squeeze()
-				epoch_loss += loss.item()
-				optimizer.zero_grad()
-				loss.backward()
-				optimizer.step()
-
-
-			if valid_loss < best_loss:
-				best_loss = valid_loss
-				best_state_dict = model.module.state_dict() if args.distributed else model.state_dict()
-				torch.save(best_state_dict, os.path.join(args.pths_path, 'model_bestepoch_{}.pth'.format(epoch+1)))
-			args.writer.add_scalar('Validation loss',valid_loss,epoch)
-			#(+) optional
-			#model.train()
-			'''
 		scheduler.step()
 
+		if (epoch + 1) % args.save_interval == 0:
+			model.eval()
+			with torch.no_grad():
+				validation_cnt = 0
+				valid_loss = 0
+				valid_epoch_loss = 0
+				for i, (v_img, v_gt_score, v_gt_geo, v_ignored_map) in enumerate(valid_loader):
+					validation_cnt = i
+					v_img, v_gt_score, v_gt_geo, v_ignored_map = v_img.to(device), v_gt_score.to(device), v_gt_geo.to(
+						device), v_ignored_map.to(device)
+					v_pred_score, v_pred_geo = model(v_img)
+					valid_loss += criterion(v_gt_score, v_pred_score, v_gt_geo, v_pred_geo, v_ignored_map) + model.regularisation().squeeze()
 
+					valid_epoch_loss += valid_loss.item()
+
+				avg_valid_loss = valid_loss / validation_cnt # validation과정 중 평균 로스값으로 비교
+				if avg_valid_loss < best_loss:
+					best_loss = avg_valid_loss
+					best_state_dict = model.module.state_dict() if args.distributed else model.state_dict()
+					torch.save(best_state_dict, os.path.join(args.pths_path, 'model_best.pth'))
+				args.writer.add_scalar('Validation loss',avg_valid_loss,epoch)
+
+			#model.train()
+
+		scheduler.step()
+
+	test_loss = 0
+	test_cnt = 0
+	avg_test_loss = 0
+	model.eval()
+	with torch.no_grad():
+		for i, (t_img, t_gt_score, t_gt_geo, t_ignored_map) in enumerate(test_loader):
+			test_cnt = i
+			t_img, t_gt_score, t_gt_geo, t_ignored_map = t_img.to(device), t_gt_score.to(device), t_gt_geo.to(
+				device), t_ignored_map.to(device)
+			t_pred_score, t_pred_geo = model(t_img)
+			test_loss += criterion(t_gt_score, t_pred_score, t_gt_geo, t_pred_geo,
+									t_ignored_map) + model.regularisation().squeeze()
+			avg_test_loss += test_loss.item()
+
+	avg_test_loss = test_loss / test_cnt
+	print('average loss for test dataset  :' + avg_test_loss)
+	print('accuracy for test dataset  :' + avg_test_loss)
+	#AP
+	#args.writer.add_scalar('Test loss', valid_loss, ) 이부분은 어떻게 써야 할지 모르겠어요
 
 
 
@@ -103,14 +121,14 @@ def main():
 	# parser
 	parser = argparse.ArgumentParser(description="---#---")
 
-	parser.add_argument("--batch_size", default=4, type=int)  # batch size가 성능에도 직접적으로 영향을 끼친다
+	parser.add_argument("--batch_size", default=2, type=int)  # batch size가 성능에도 직접적으로 영향을 끼친다
 	parser.add_argument("--lr", default=1e-3, type=float)
 	parser.add_argument("--gpu_device", default=0, type=int)
 	parser.add_argument('--seed', type=int, default=1) # seed 성능 재연을 위해서 필수적인 부분이고.
 	parser.add_argument('--w', type=float, default=0.00009, help='Weight regularization')
 	parser.add_argument('--d', type=float, default=1e-7, help='Dropout regularization')
 	parser.add_argument('--epochs', type=int, default=600)
-	parser.add_argument('--save_interval', type=int, default=5)
+	parser.add_argument('--save_interval', type=int, default=1)
 	parser.add_argument('--train_img_path', type=str, default="./dataset/jpg")
 	parser.add_argument('--train_gt_path', type=str, default="./dataset/json")
 	parser.add_argument("--pths_path",type=str, default="./utils/pths")
@@ -118,6 +136,7 @@ def main():
 	parser.add_argument("--exp_name",type=str, default="temp",help="experiment name")
 	parser.add_argument("--distributed",action='store_true')
 	parser.add_argument("--pretrained",action='store_true')
+	parser.add_argument("--threshold", default=0.95, type=float) # threshold 추가
 
 	args = parser.parse_args()
 	args.writer = SummaryWriter(os.path.join(args.log_path,args.exp_name))

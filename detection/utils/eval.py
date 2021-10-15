@@ -3,7 +3,7 @@ import torch
 import subprocess
 import os
 from model import EAST
-from utils import detect_dataset
+import dataset
 import numpy as np
 import shutil
 
@@ -19,7 +19,7 @@ def eval_model(model_name, test_img_path, submit_path, save_flag=True):
 	model.eval()
 	
 	start_time = time.time()
-	detect_dataset(model, device, test_img_path, submit_path)
+	dataset(model, device, test_img_path, submit_path)
 	os.chdir(submit_path)
 	res = subprocess.getoutput('zip -q submit.zip *.txt')
 	res = subprocess.getoutput('mv submit.zip ../')

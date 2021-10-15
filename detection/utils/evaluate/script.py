@@ -1,6 +1,7 @@
 from collections import namedtuple
 import rrc_evaluation_funcs
 import importlib
+import numpy as np
 
 def evaluation_imports():
     """
