@@ -34,7 +34,7 @@ class Concrete_linear(nn.Module):
 def make_layers(cfg, w, d, batch_norm=False):
 
 	layers = []
-	in_channels = 3
+	in_channels = 1 # 3->1 변경
 	for v in cfg:
 		if v == 'M':
 			layers += [nn.MaxPool2d(kernel_size=2, stride=2)]
@@ -255,7 +255,7 @@ class recognitionModel(nn.Module):
 
 if __name__ == '__main__':
 	m = EAST()
-	x = torch.randn(1, 3, 256, 256)
+	x = torch.randn(1, 1, 256, 256)
 	score, geo = m(x)
 	print(score.shape)
 	print(geo.shape)

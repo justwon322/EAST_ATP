@@ -200,8 +200,10 @@ def crop_img(img, vertices, labels, length):
 	# confirm the shortest side of image >= length
 	if h >= w and w < length:
 		img = img.resize((length, int(h * length / w)), Image.BILINEAR)
+
 	elif h < w and h < length:
 		img = img.resize((int(w * length / h), length), Image.BILINEAR)
+
 	ratio_w = img.width / w
 	ratio_h = img.height / h
 	assert(ratio_w >= 1 and ratio_h >= 1)
@@ -255,7 +257,7 @@ def rotate_all_pixels(rotate_mat, anchor_x, anchor_y, length):
 	return rotated_x, rotated_y
 
 
-def adjust_height(img, vertices, ratio=0.2):
+def adjust_height(img, vertices, ratio=0.0):
 	'''adjust height of image to aug data
 	Input:
 		img         : PIL Image
@@ -376,7 +378,7 @@ def extract_vertices(lines):
 
 	
 class custom_dataset(data.Dataset):
-	def __init__(self, img_path, gt_path, scale=0.25, length=512):
+	def __init__(self, img_path, gt_path, scale=0.25, length=256):
 		super(custom_dataset, self).__init__()
 
 		self.img_files = img_path
@@ -392,21 +394,22 @@ class custom_dataset(data.Dataset):
 			json_data = json.load(f)
 			annotations = json_data["annotations"]
 			bounding_boxs = []
+
 			for i, object in enumerate(annotations):
 
 				# text = object['annotation.text']
-				# bounding_box = object['annotation.bbox']
+				#bounding_box = object['annotation.bbox']
 				bounding_boxs.append(object['annotation.bbox'])
 
 		vertices,labels = extract_vertices(bounding_boxs)
 		
-		img = Image.open(self.img_files[index])
-		img, vertices = adjust_height(img, vertices) 
-		img, vertices = rotate_img(img, vertices)
-		img, vertices = crop_img(img, vertices, labels, self.length) 
-		transform = transforms.Compose([transforms.ColorJitter(0.5, 0.5, 0.5, 0.25), \
-                                        transforms.ToTensor(), \
-                                        transforms.Normalize(mean=(0.5,0.5,0.5),std=(0.5,0.5,0.5))])
-		
+		img = Image.open(self.img_files[index]).convert('L')
+		#img, vertices = adjust_height(img, vertices)
+		#img, vertices = rotate_img(img, vertices)
+		img, vertices = crop_img(img, vertices, labels, self.length)
+
+		transform = transforms.Compose([transforms.ToTensor(), \
+                                        transforms.Normalize(mean=(0.5),std=(0.5))])
+
 		score_map, geo_map, ignored_map = get_score_geo(img, vertices, labels, self.scale, self.length)
 		return transform(img), score_map, geo_map, ignored_map

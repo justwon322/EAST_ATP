@@ -13,6 +13,7 @@ from utils.util import set_seed
 import os
 import time
 import glob
+from PIL import Image
 from sklearn.model_selection import train_test_split
 from torch.utils.tensorboard import SummaryWriter
 
@@ -20,6 +21,9 @@ def train(args):
 
 	set_seed(args.seed)
 	file_num = len(glob.glob(os.path.join(args.train_img_path,"**","**","**","*.JPG")))
+
+
+
 	dataset = custom_dataset(img_path=glob.glob(os.path.join(args.train_img_path,"**","**","**","*.JPG")),gt_path=glob.glob(os.path.join(args.train_gt_path,"**","**","**","*.json")))
 	data_idxs = np.arange(file_num)
 	train_, valid_ = train_test_split(data_idxs,test_size=0.2, random_state = args.seed)
@@ -27,11 +31,12 @@ def train(args):
 	trainset, validset, testset = data.Subset(dataset,train_), data.Subset(dataset,valid_) ,data.Subset(dataset,test_)
 
 	train_loader = data.DataLoader(trainset, batch_size=args.batch_size, shuffle=True, drop_last=True, pin_memory=True)
-	valid_loader = data.DataLoader(trainset, batch_size=args.batch_size, shuffle=True, drop_last=True, pin_memory=True)
-	test_loader = data.DataLoader(trainset, batch_size=args.batch_size, shuffle=False, drop_last=False, pin_memory=True)
+	valid_loader = data.DataLoader(validset, batch_size=args.batch_size, shuffle=True, drop_last=True, pin_memory=True)
+	test_loader = data.DataLoader(testset, batch_size=args.batch_size, shuffle=False, drop_last=False, pin_memory=True)
 
 	criterion = Loss()
 	device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+
 	model = EAST(w=args.w, d=args.d,pretrained=args.pretrained).to(device).cuda()
 
 	if args.distributed & torch.cuda.device_count() > 1:
@@ -54,8 +59,8 @@ def train(args):
 			epoch_loss += loss.item()
 			optimizer.zero_grad()
 			loss.backward()
-
 			optimizer.step()
+			os.system('nvidia-smi')
 			print('Epoch is [{}/{}], mini-batch is [{}/{}], time consumption is {:.8f}, batch_loss is {:.8f}'.format(
               epoch+1, args.epochs, i+1, mini_batch_size , time.time()-start_time, loss.item()))
 		
@@ -121,7 +126,7 @@ def main():
 	# parser
 	parser = argparse.ArgumentParser(description="---#---")
 
-	parser.add_argument("--batch_size", default=2, type=int)  # batch size가 성능에도 직접적으로 영향을 끼친다
+	parser.add_argument("--batch_size", default=10, type=int)  # batch size가 성능에도 직접적으로 영향을 끼친다
 	parser.add_argument("--lr", default=1e-3, type=float)
 	parser.add_argument("--gpu_device", default=0, type=int)
 	parser.add_argument('--seed', type=int, default=1) # seed 성능 재연을 위해서 필수적인 부분이고.
