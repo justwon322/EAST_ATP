@@ -82,12 +82,10 @@ class VGG(nn.Module):
 		return x
 
 class extractor(nn.Module): # feature extractor stem
-	def __init__(self, w, d, pretrained):
+	def __init__(self, w, d):
 		super(extractor, self).__init__()
 
 		vgg16_bn = VGG(w=w , d=d, features=make_layers(cfg, w, d, batch_norm=True))
-		if pretrained:
-			vgg16_bn.load_state_dict(torch.load('./utils/pths/vgg16_bn-6c64b313.pth'))
 		self.features = vgg16_bn.features
 	
 	def forward(self, x):
@@ -191,16 +189,16 @@ class output(nn.Module):
 	def forward(self, x):
 		score = self.sigmoid1(self.cd1(x,self.conv1))
 		loc   = self.sigmoid2(self.cd2(x,self.conv2)) * self.scope
-		angle = (self.sigmoid3(self.cd3(x,self.conv3)) - 0.5) * math.pi #TODO Check
+		angle = (self.sigmoid3(self.cd3(x,self.conv3)) - 0.5) * math.pi
 		geo   = torch.cat([loc, angle],axis=1)
 		return score, geo
 		
 
 @condrop.concrete_regulariser
 class EAST(nn.Module):
-	def __init__(self, w,d, pretrained):
+	def __init__(self, w,d):
 		super(EAST, self).__init__()
-		self.extractor = extractor(w,d,pretrained)
+		self.extractor = extractor(w,d)
 		self.merge     = merge(w,d)
 		self.output    = output(w=w,d=d)
 

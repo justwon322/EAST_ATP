@@ -403,8 +403,8 @@ class custom_dataset(data.Dataset):
 
 		vertices,labels = extract_vertices(bounding_boxs)
 		
-		img = Image.open(self.img_files[index]).convert('L')
-		#img, vertices = adjust_height(img, vertices)
+		img = Image.open(self.img_files[index]).convert('L') # grayscale로 변경
+		#img, vertices = adjust_height(img, vertices) #data augmentation 필요 없어서 제거
 		#img, vertices = rotate_img(img, vertices)
 		img, vertices = crop_img(img, vertices, labels, self.length)
 

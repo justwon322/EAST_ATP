@@ -6,7 +6,7 @@ import torch.backends.cudnn as cudnn
 import torch.utils.data
 import torch.nn.functional as F
 
-from utils import CTCLabelConverter, AttnLabelConverter
+from utils import AttnLabelConverter
 from dataset import RawDataset, AlignCollate
 from model import Model
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
@@ -14,10 +14,7 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 def demo(opt):
     """ model configuration """
-    if 'CTC' in opt.Prediction:
-        converter = CTCLabelConverter(opt.character)
-    else:
-        converter = AttnLabelConverter(opt.character)
+    converter = AttnLabelConverter(opt.character)
     opt.num_class = len(converter.character)
 
     if opt.rgb:
