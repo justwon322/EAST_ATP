@@ -34,7 +34,7 @@ class Concrete_linear(nn.Module):
 def make_layers(cfg, w, d, batch_norm=False):
 
 	layers = []
-	in_channels = 1 # 3->1 변경
+	in_channels = 3  # 3->1 변경
 	for v in cfg:
 		if v == 'M':
 			layers += [nn.MaxPool2d(kernel_size=2, stride=2)]
@@ -206,54 +206,9 @@ class EAST(nn.Module):
 		return self.output(self.merge(self.extractor(x)))
 
 
-#해당모델은 recognition 파트 의 모델
-class recognitionModel(nn.Module):
-
-    def __init__(self, num_class):
-        super(recognitionModel, self).__init__()
-        self.num_class = num_class
-        self.stages = {'Trans': True, 'Feat': True,
-                       'Seq': True, 'Pred': True}
-
-        """ Transformation """
-        self.Transformation = TPS_SpatialTransformerNetwork( # https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=worb1605&logNo=221580830661
-            F=20, I_size=(32, 100), I_r_size=(32, 100), I_channel_num=1)
-
-        """ FeatureExtraction """
-        self.FeatureExtraction = ResNet_FeatureExtractor(1, 512)
-        self.FeatureExtraction_output = 512  # int(imgH/16-1) * 512
-        self.AdaptiveAvgPool = nn.AdaptiveAvgPool2d((None, 1))  # Transform final (imgH/16-1) -> 1
-
-        """ Sequence modeling"""
-        self.SequenceModeling = nn.Sequential(
-            BidirectionalLSTM(self.FeatureExtraction_output, 256, 256),
-            BidirectionalLSTM(256, 256, 256))
-        self.SequenceModeling_output = 256
-        """ Prediction """
-        self.Prediction = Attention(self.SequenceModeling_output, 256, num_class)
-
-    def forward(self, input, text, is_train=True):
-        """ Transformation stage """
-        if not self.stages['Trans'] == "None":
-            input = self.Transformation(input)
-
-        """ Feature extraction stage """
-        visual_feature = self.FeatureExtraction(input)
-        visual_feature = self.AdaptiveAvgPool(visual_feature.permute(0, 3, 1, 2))  # [b, c, h, w] -> [b, w, c, h]
-        visual_feature = visual_feature.squeeze(3)
-
-        """ Sequence modeling stage """
-        contextual_feature = self.SequenceModeling(visual_feature)
-
-        """ Prediction stage """
-        prediction = self.Prediction(contextual_feature.contiguous(), text, is_train, batch_max_length=25)
-
-        return prediction
-
-
 if __name__ == '__main__':
 	m = EAST()
-	x = torch.randn(1, 1, 256, 256)
+	x = torch.randn(1, 3, 256, 256)
 	score, geo = m(x)
 	print(score.shape)
 	print(geo.shape)

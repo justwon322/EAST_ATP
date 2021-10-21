@@ -11,10 +11,8 @@ from rich.progress import Progress
 
 def set_seed(seed):
     torch.manual_seed(seed)
-    np.random.seed(seed)
     torch.cuda.manual_seed(seed)
     torch.cuda.manual_seed_all(seed)
-    random.seed(seed)
 
 class AttnLabelConverter(object):
     """ Convert between text-label and text-index """

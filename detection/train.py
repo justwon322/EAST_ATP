@@ -19,7 +19,7 @@ import matplotlib.pyplot as plt
 
 def train(args):
 
-	set_seed(args.seed)
+	set_seed(args.seed)# training시 dataset.py의 crop_img 를 통해 원본 이미지를 "랜덤하게" 잘라서 사용하는데, seed가 고정되어있으면 항상 같은 이미지만 학습해버림
 	file_num = len(glob.glob(os.path.join(args.train_img_path,"**","**","**","*.JPG")))
 	dataset = custom_dataset(img_path=glob.glob(os.path.join(args.train_img_path,"**","**","**","*.JPG")),gt_path=glob.glob(os.path.join(args.train_gt_path,"**","**","**","*.json")))
 	train_, valid_ = train_test_split(np.arange(file_num),test_size=0.2, random_state = args.seed)
@@ -57,8 +57,8 @@ def train(args):
 			for _, (img, gt_score, gt_geo, ignored_map) in enumerate(train_loader):
 				img, gt_score, gt_geo, ignored_map = img.to(device), gt_score.to(device), gt_geo.to(device), ignored_map.to(device)
 				pred_score, pred_geo = model(img)
-				loss = criterion(gt_score, pred_score, gt_geo, pred_geo, ignored_map)+model.regularisation().squeeze()
-				epoch_loss += loss.item()
+				geo_loss , iou_loss, classify_loss = criterion(gt_score, pred_score, gt_geo, pred_geo, ignored_map)+model.regularisation().squeeze()
+				epoch_loss += iou_loss.item()
 				optimizer.zero_grad()
 				loss.backward()
 				optimizer.step()
@@ -69,9 +69,8 @@ def train(args):
 				args.writer.add_scalar('Train_loss',epoch_loss/len(train_loader),epoch)
 			pg.print('Training loss is {:.8f}'.format(epoch_loss/len(train_loader)))
 			scheduler.step()
-
+			model.train()
 			model.eval()
-			v_temp_loss = 0
 			with torch.no_grad():
 				valid_epoch_loss = 0
 
@@ -119,31 +118,36 @@ def train(args):
 								gt_probs = np.concatenate([gt_probs,t_gt_score.squeeze(1).cpu().numpy()],axis=0)
 								pred_probs = np.concatenate([pred_probs,pred_prob.detach().cpu().numpy()],axis=0)
 
-					avg_test_loss = test_epoch_loss / len(test_loader)
-					if args.tensorboard:
-						args.writer.add_scalar('Testing_loss',avg_test_loss,epoch)
-					pg.print('Testing loss is {:.8f}'.format(avg_test_loss))
+					if len(test_loader) != 0:
+						avg_test_loss = test_epoch_loss / len(test_loader)
+						if args.tensorboard:
+							args.writer.add_scalar('Testing_loss',avg_test_loss,epoch)
+						pg.print('Testing loss is {:.8f}'.format(avg_test_loss))
 
-					with open(f"./output/{args.run_name}.pkl","rb") as f:
+
+					with open(f"./output/{args.exp_name}.pkl","wb") as f:
 						pickle.dump({"uncertainty":uncertaintys , "gt":gt_probs, "pred_probs":pred_probs}, f)
 					break
+				else:
+					torch.save(model.state_dict(), args.exp_name)
+					plt.plot(x, pd.Series(y_1), x, pd.Series(y_2))
+					plt.legend(['training_loss', 'validation_loss'])
+					plt.savefig('loss.png')
 
-		plt.plot(x, pd.Series(y_1), x, pd.Series(y_2))
-		plt.legend(['training_loss', 'validation_loss'])
-		plt.show()
+
 
 def main():
 
 	# parser
 	parser = argparse.ArgumentParser(description="---#---")
 
-	parser.add_argument("--batch_size", default=4, type=int)
+	parser.add_argument("--batch_size", default=30, type=int)
 	parser.add_argument("--lr", default=1e-4, type=float)
 	parser.add_argument("--gpu_device", default=0, type=int)
 	parser.add_argument('--seed', type=int, default=1)
 	parser.add_argument('--w', type=float, default=0.00009, help='Weight regularization')
 	parser.add_argument('--d', type=float, default=1e-7, help='Dropout regularization')
-	parser.add_argument('--epochs', type=int, default=1)
+	parser.add_argument('--epochs', type=int, default=200)
 	parser.add_argument('--start_epochs', type=int, default=0)
 	parser.add_argument('--train_img_path', type=str, default="./dataset/jpg")
 	parser.add_argument('--train_gt_path', type=str, default="./dataset/json")

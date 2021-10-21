@@ -1,19 +1,17 @@
 # -*- coding: utf-8 -*-
 import os
 
-import cv2
 import numpy as np
 import torch
 import torch.nn.functional as F
 
 from PIL import Image, ImageDraw
-from torchvision import transforms
+from torchvision import transforms,ops
 
 from utils import lanms
 from utils.dataset import get_rotate_mat
 from utils.detectword import convertCoordination, read_img_by_coord
 from utils.model import EAST
-from utils.model import recognitionModel
 from utils.pre_dataset import RawDataset, AlignCollate
 from utils.util import AttnLabelConverter
 
@@ -37,7 +35,7 @@ def resize_img(img):
 def load_pil(img):
     '''convert PIL Image to torch.Tensor
 	'''
-    t = transforms.Compose([transforms.ToTensor(), transforms.Normalize(mean=(0.5, 0.5, 0.5), std=(0.5, 0.5, 0.5))])
+    t = transforms.Compose([transforms.ToTensor(), transforms.Normalize(mean=(0.5), std=(0.5))])
     return t(img).unsqueeze(0)
 
 
@@ -96,7 +94,7 @@ def restore_polys(valid_pos, valid_geo, score_shape, scale=4):
     return np.array(polys), index
 
 
-def get_boxes(score, geo, score_thresh=0.9, nms_thresh=0.2):
+def get_boxes(score, geo, score_thresh=0.9, nms_thresh=0.4):
     '''get boxes from feature map
 	Input:
 		score       : score map from model <numpy.ndarray, (1,row,col)>
@@ -165,7 +163,7 @@ def plot_boxes(img, boxes):
 
     draw = ImageDraw.Draw(img)
     for box in boxes:
-        draw.polygon([box[0], box[1], box[2], box[3], box[4], box[5], box[6], box[7]], outline=(0, 255, 0))
+        draw.polygon([box[0], box[1], box[2], box[3], box[4], box[5], box[6], box[7]], outline=(0,255,0))
     return img
 
 
@@ -191,15 +189,17 @@ def detect_dataset(model, device, test_img_path, submit_path):
 
 
 if __name__ == '__main__':
-    img_path = './dataset/ICDAR_2015/test_img/5350046-2004-0001-0392.JPG'
+    img_path = './dataset/jpg/01/5350046/2004/5350046-2004-0001-0392.JPG'
     model_path = './parameter/EAST_baseline.pth'
     res_img = './output/out.jpg'
     txt_path = './utils/temp/box_cord'
-    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-    model = EAST().to(device)
+    device = 'cpu'#torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+
+    model = EAST(w=0.00009, d=1e-7).to(device)
     model.load_state_dict(torch.load(model_path))
     model.eval()
-    img = Image.open(img_path)
+    org_img = Image.open(img_path)
+    img = org_img
 
     boxes = detect(img, model, device) # detection 끝
 
@@ -213,9 +213,9 @@ if __name__ == '__main__':
     f.close()
     #######################################################
 
-    plot_img = plot_boxes(img, boxes)
+    plot_img = plot_boxes(org_img, boxes)
     plot_img.save(res_img)
-
+'''
     #recognition 시작
     len_loc, loc = convertCoordination() 
     for i in range(len(len_loc)):
@@ -286,3 +286,4 @@ if __name__ == '__main__':
                 log.write(f'{img_name:25s}\t{pred:25s}\t{confidence_score:0.4f}\n') # 로그 작성부분
 
             log.close()
+'''

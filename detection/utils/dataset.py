@@ -3,7 +3,7 @@ import numpy as np
 import cv2
 from PIL import Image
 import math
-import os
+import matplotlib.pyplot as plt
 import torch
 import torchvision.transforms as transforms
 from torch.utils import data
@@ -178,9 +178,10 @@ def is_cross_text(start_loc, length, vertices):
 	for vertice in vertices:
 		p2 = Polygon(vertice.reshape((4,2))).convex_hull
 		inter = p1.intersection(p2).area
-		if p2.area == 0:
-			return
-		if 0.01 <= inter / p2.area <= 0.99: 
+
+		if inter == 0:
+			return False
+		if 0.01 <= inter / p2.area <= 0.99:
 			return True
 	return False
 		
@@ -224,6 +225,7 @@ def crop_img(img, vertices, labels, length):
 		start_h = int(np.random.rand() * remain_h)
 		flag = is_cross_text([start_w, start_h], length, new_vertices[labels==1,:])
 	box = (start_w, start_h, start_w + length, start_h + length)
+
 	region = img.crop(box)
 	if new_vertices.size == 0:
 		return region, new_vertices	
@@ -257,7 +259,7 @@ def rotate_all_pixels(rotate_mat, anchor_x, anchor_y, length):
 	return rotated_x, rotated_y
 
 
-def adjust_height(img, vertices, ratio=0.0):
+def adjust_height(img, vertices, ratio=0.2):
 	'''adjust height of image to aug data
 	Input:
 		img         : PIL Image
@@ -403,13 +405,19 @@ class custom_dataset(data.Dataset):
 
 		vertices,labels = extract_vertices(bounding_boxs)
 		
-		img = Image.open(self.img_files[index]).convert('L') # grayscale로 변경
+		img = Image.open(self.img_files[index]) # grayscale로 변경
+
+		img = img.resize((int(img.width / 3) , int(img.height / 3)))
+		vertices = vertices / 3
+
+
 		#img, vertices = adjust_height(img, vertices) #data augmentation 필요 없어서 제거
 		#img, vertices = rotate_img(img, vertices)
 		img, vertices = crop_img(img, vertices, labels, self.length)
 
-		transform = transforms.Compose([transforms.ToTensor(), \
-                                        transforms.Normalize(mean=(0.5),std=(0.5))])
+		transform = transforms.Compose([transforms.ColorJitter(0.5, 0.5, 0.5, 0.25), \
+										transforms.ToTensor(), \
+										transforms.Normalize(mean=(0.5, 0.5, 0.5), std=(0.5, 0.5, 0.5))])
 
 		score_map, geo_map, ignored_map = get_score_geo(img, vertices, labels, self.scale, self.length)
 		return transform(img), score_map, geo_map, ignored_map
