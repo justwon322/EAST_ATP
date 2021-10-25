@@ -5,10 +5,6 @@ import torch.utils.model_zoo as model_zoo
 import torch.nn.functional as F
 import math
 from utils import condrop
-from utils.modules.transformation import TPS_SpatialTransformerNetwork
-from utils.modules.feature_extraction import ResNet_FeatureExtractor
-from utils.modules.sequence_modeling import BidirectionalLSTM
-from utils.modules.prediction import Attention
 from utils.condrop import ConcreteDropout
 
 #%%
@@ -34,7 +30,7 @@ class Concrete_linear(nn.Module):
 def make_layers(cfg, w, d, batch_norm=False):
 
 	layers = []
-	in_channels = 3  # 3->1 변경
+	in_channels = 3 # 3->1 변경
 	for v in cfg:
 		if v == 'M':
 			layers += [nn.MaxPool2d(kernel_size=2, stride=2)]
@@ -204,6 +200,7 @@ class EAST(nn.Module):
 
 	def forward(self, x):
 		return self.output(self.merge(self.extractor(x)))
+
 
 
 if __name__ == '__main__':

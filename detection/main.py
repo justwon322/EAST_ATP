@@ -3,18 +3,14 @@ import os
 
 import numpy as np
 import torch
-import torch.nn.functional as F
+import json
 
 from PIL import Image, ImageDraw
-from torchvision import transforms,ops
+from torchvision import transforms
 
-from utils import lanms
+from utils import locality_aware_nms as lanms
 from utils.dataset import get_rotate_mat
-from utils.detectword import convertCoordination, read_img_by_coord
 from utils.model import EAST
-from utils.pre_dataset import RawDataset, AlignCollate
-from utils.util import AttnLabelConverter
-
 
 def resize_img(img):
     '''resize image to be divisible by 32
@@ -35,8 +31,10 @@ def resize_img(img):
 def load_pil(img):
     '''convert PIL Image to torch.Tensor
 	'''
-    t = transforms.Compose([transforms.ToTensor(), transforms.Normalize(mean=(0.5), std=(0.5))])
-    return t(img).unsqueeze(0)
+    transform = transforms.Compose([transforms.ColorJitter(0.5, 0.5, 0.5, 0.25), \
+                                    transforms.ToTensor(), \
+                                    transforms.Normalize(mean=(0.5, 0.5, 0.5), std=(0.5, 0.5, 0.5))])
+    return transform(img).unsqueeze(0)
 
 
 def is_valid_poly(res, score_shape, scale):
@@ -94,7 +92,7 @@ def restore_polys(valid_pos, valid_geo, score_shape, scale=4):
     return np.array(polys), index
 
 
-def get_boxes(score, geo, score_thresh=0.9, nms_thresh=0.4):
+def get_boxes(score, geo, score_thresh=0.9, nms_thresh=0.3):
     '''get boxes from feature map
 	Input:
 		score       : score map from model <numpy.ndarray, (1,row,col)>
@@ -119,7 +117,7 @@ def get_boxes(score, geo, score_thresh=0.9, nms_thresh=0.4):
     boxes = np.zeros((polys_restored.shape[0], 9), dtype=np.float32)
     boxes[:, :8] = polys_restored
     boxes[:, 8] = score[xy_text[index, 0], xy_text[index, 1]]
-    boxes = lanms.merge_quadrangle_n9(boxes.astype('float32'), nms_thresh)
+    boxes = lanms.nms_locality(boxes.astype('float32'), nms_thresh)
     return boxes
 
 
@@ -190,17 +188,15 @@ def detect_dataset(model, device, test_img_path, submit_path):
 
 if __name__ == '__main__':
     img_path = './dataset/jpg/01/5350046/2004/5350046-2004-0001-0392.JPG'
-    model_path = './parameter/EAST_baseline.pth'
+    model_path = './parameter/최신.pth'
     res_img = './output/out.jpg'
     txt_path = './utils/temp/box_cord'
     device = 'cpu'#torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
-    model = EAST(w=0.00009, d=1e-7).to(device)
+    model = EAST(w=0.000009, d=1e-10).to(device)
     model.load_state_dict(torch.load(model_path))
     model.eval()
-    org_img = Image.open(img_path)
-    img = org_img
-
+    img = Image.open(img_path)
     boxes = detect(img, model, device) # detection 끝
 
     ################ box 좌표 text 파일로 저장 ###############
@@ -213,7 +209,19 @@ if __name__ == '__main__':
     f.close()
     #######################################################
 
-    plot_img = plot_boxes(org_img, boxes)
+    with open('./dataset/json/01/5350046/2004/5350046-2004-0001-0392.json', 'r', encoding='utf-8') as f:
+        json_data = json.load(f)  # 0 if '###' in line else 1  # aihub 데이터셋은 모두가 valid 한 데이터셋이므로 무조건 1
+        annotations = json_data["annotations"]
+        bounding_boxs = []
+        for i, object in enumerate(annotations):
+            bounding_boxs.append(object['annotation.bbox'])
+
+    draw = ImageDraw.Draw(img)
+    vertices = []
+    for line in bounding_boxs:
+        draw.polygon([line[0], line[1], line[0] + line[2], line[1], line[0] + line[2], line[1] + line[3], line[0],line[1] + line[3]], outline=(255, 255, 255))
+
+    plot_img = plot_boxes(img, boxes)
     plot_img.save(res_img)
 '''
     #recognition 시작

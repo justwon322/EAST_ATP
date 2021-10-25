@@ -26,15 +26,8 @@ def writeCache(env, cache):
             txn.put(k, v)
 
 
-def createDataset(inputPath = './data/validation', gtFile = './data/validation_gt.txt', outputPath = './data_lmdb/validation', checkValid=True):
-    """
-    Create LMDB dataset for training and evaluation.
-    ARGS:
-        inputPath  : input folder path where starts imagePath
-        outputPath : LMDB output path
-        gtFile     : list of image path and label
-        checkValid : if true, check the validity of every image
-    """
+def createDataset(inputPath = './data', gtFile = './data/gt.txt', outputPath = './data_lmdb', checkValid=True):
+
     os.makedirs(outputPath, exist_ok=True)
     env = lmdb.open(outputPath, map_size=500000000)
     cache = {}
@@ -48,15 +41,6 @@ def createDataset(inputPath = './data/validation', gtFile = './data/validation_g
         imagefile, label = datalist[i].strip('\n').split('\t')
         imagePath = os.path.join(inputPath, imagefile)
 
-        # # only use alphanumeric data
-        # if re.search('[^a-zA-Z0-9]', label):
-        #     continue
-
-        #if not os.path.exists(imagePath):
-            #print('%s does not exist' % imagePath)
-            #continue
-
-        #with open('./data/validation/'+imagefile,'rb' ) as f:
         with open(imagePath,'rb' ) as f:
             imageBin = f.read()
         if checkValid:
@@ -85,20 +69,5 @@ def createDataset(inputPath = './data/validation', gtFile = './data/validation_g
     writeCache(env, cache)
     print('Created dataset with %d samples' % nSamples)
 
-def main():
-    parser = argparse.ArgumentParser(description="---#---")
-
-    parser.add_argument("--inputPath", default='data/training', type=str)  # batch size가 성능에도 직접적으로 영향을 끼친다
-    parser.add_argument("--gtFile", default='data/train_gt.txt', type=str)
-    parser.add_argument("--outputPath", default='data/train_gt.txt', type=str)
-
-
-    args = parser.parse_args()
-
-    fire.Fire(createDataset)
-
-
-if __name__ == '__main__':
-    main()
-
+fire.Fire(createDataset)
 

@@ -3,11 +3,15 @@ import numpy as np
 import cv2
 from PIL import Image
 import math
-import matplotlib.pyplot as plt
+import os
 import torch
 import torchvision.transforms as transforms
 from torch.utils import data
 import json
+import matplotlib.pyplot as plt
+
+
+
 
 def cal_distance(x1, y1, x2, y2):
 	'''calculate the L2 Euclidean distance'''
@@ -179,8 +183,6 @@ def is_cross_text(start_loc, length, vertices):
 		p2 = Polygon(vertice.reshape((4,2))).convex_hull
 		inter = p1.intersection(p2).area
 
-		if inter == 0:
-			return False
 		if 0.01 <= inter / p2.area <= 0.99:
 			return True
 	return False
@@ -224,11 +226,11 @@ def crop_img(img, vertices, labels, length):
 		start_w = int(np.random.rand() * remain_w)
 		start_h = int(np.random.rand() * remain_h)
 		flag = is_cross_text([start_w, start_h], length, new_vertices[labels==1,:])
-	box = (start_w, start_h, start_w + length, start_h + length)
 
+	box = (start_w, start_h, start_w + length, start_h + length)
 	region = img.crop(box)
 	if new_vertices.size == 0:
-		return region, new_vertices	
+		return region, new_vertices
 	
 	new_vertices[:,[0,2,4,6]] -= start_w
 	new_vertices[:,[1,3,5,7]] -= start_h
@@ -259,6 +261,62 @@ def rotate_all_pixels(rotate_mat, anchor_x, anchor_y, length):
 	return rotated_x, rotated_y
 
 
+def get_score_geo(img, vertices, labels, scale, length):
+	'''generate score gt and geometry gt
+	Input:
+		img     : PIL Image
+		vertices: vertices of text regions <numpy.ndarray, (n,8)>
+		labels  : 1->valid, 0->ignore, <numpy.ndarray, (n,)>
+		scale   : feature map / image
+		length  : image length
+	Output:
+		score gt, geo gt, ignored
+	'''
+	score_map = np.zeros((int(img.height * scale), int(img.width * scale), 1), np.float32)
+	geo_map = np.zeros((int(img.height * scale), int(img.width * scale), 5), np.float32)
+	ignored_map = np.zeros((int(img.height * scale), int(img.width * scale), 1), np.float32)
+
+	index = np.arange(0, length, int(1 / scale))
+	index_x, index_y = np.meshgrid(index, index)
+	ignored_polys = []
+	polys = []
+
+	for i, vertice in enumerate(vertices):
+		if labels[i] == 0:
+			ignored_polys.append(np.around(scale * vertice.reshape((4, 2))).astype(np.int32))
+			continue
+
+		poly = np.around(scale * shrink_poly(vertice).reshape((4, 2))).astype(np.int32)  # scaled & shrinked
+		polys.append(poly)
+		temp_mask = np.zeros(score_map.shape[:-1], np.float32)
+		cv2.fillPoly(temp_mask, [poly], 1)
+
+		theta = find_min_rect_angle(vertice)
+		rotate_mat = get_rotate_mat(theta)
+
+		rotated_vertices = rotate_vertices(vertice, theta)
+		x_min, x_max, y_min, y_max = get_boundary(rotated_vertices)
+		rotated_x, rotated_y = rotate_all_pixels(rotate_mat, vertice[0], vertice[1], length)
+
+		d1 = rotated_y - y_min
+		d1[d1 < 0] = 0
+		d2 = y_max - rotated_y
+		d2[d2 < 0] = 0
+		d3 = rotated_x - x_min
+		d3[d3 < 0] = 0
+		d4 = x_max - rotated_x
+		d4[d4 < 0] = 0
+		geo_map[:, :, 0] += d1[index_y, index_x] * temp_mask
+		geo_map[:, :, 1] += d2[index_y, index_x] * temp_mask
+		geo_map[:, :, 2] += d3[index_y, index_x] * temp_mask
+		geo_map[:, :, 3] += d4[index_y, index_x] * temp_mask
+		geo_map[:, :, 4] += theta * temp_mask
+
+	cv2.fillPoly(ignored_map, ignored_polys, 1)
+	cv2.fillPoly(score_map, polys, 1)
+	return torch.Tensor(score_map).permute(2, 0, 1), torch.Tensor(geo_map).permute(2, 0, 1), torch.Tensor(ignored_map).permute(2, 0, 1)
+
+
 def adjust_height(img, vertices, ratio=0.2):
 	'''adjust height of image to aug data
 	Input:
@@ -273,10 +331,10 @@ def adjust_height(img, vertices, ratio=0.2):
 	old_h = img.height
 	new_h = int(np.around(old_h * ratio_h))
 	img = img.resize((img.width, new_h), Image.BILINEAR)
-	
+
 	new_vertices = vertices.copy()
 	if vertices.size > 0:
-		new_vertices[:,[1,3,5,7]] = vertices[:,[1,3,5,7]] * (new_h / old_h)
+		new_vertices[:, [1, 3, 5, 7]] = vertices[:, [1, 3, 5, 7]] * (new_h / old_h)
 	return img, new_vertices
 
 
@@ -296,65 +354,8 @@ def rotate_img(img, vertices, angle_range=10):
 	img = img.rotate(angle, Image.BILINEAR)
 	new_vertices = np.zeros(vertices.shape)
 	for i, vertice in enumerate(vertices):
-		new_vertices[i,:] = rotate_vertices(vertice, -angle / 180 * math.pi, np.array([[center_x],[center_y]]))
+		new_vertices[i, :] = rotate_vertices(vertice, -angle / 180 * math.pi, np.array([[center_x], [center_y]]))
 	return img, new_vertices
-
-
-def get_score_geo(img, vertices, labels, scale, length):
-	'''generate score gt and geometry gt
-	Input:
-		img     : PIL Image
-		vertices: vertices of text regions <numpy.ndarray, (n,8)>
-		labels  : 1->valid, 0->ignore, <numpy.ndarray, (n,)>
-		scale   : feature map / image
-		length  : image length
-	Output:
-		score gt, geo gt, ignored
-	'''
-	score_map   = np.zeros((int(img.height * scale), int(img.width * scale), 1), np.float32)
-	geo_map     = np.zeros((int(img.height * scale), int(img.width * scale), 5), np.float32)
-	ignored_map = np.zeros((int(img.height * scale), int(img.width * scale), 1), np.float32)
-	
-	index = np.arange(0, length, int(1/scale))
-	index_x, index_y = np.meshgrid(index, index)
-	ignored_polys = []
-	polys = []
-	
-	for i, vertice in enumerate(vertices):
-		if labels[i] == 0:
-			ignored_polys.append(np.around(scale * vertice.reshape((4,2))).astype(np.int32))
-			continue		
-		
-		poly = np.around(scale * shrink_poly(vertice).reshape((4,2))).astype(np.int32) # scaled & shrinked
-		polys.append(poly)
-		temp_mask = np.zeros(score_map.shape[:-1], np.float32)
-		cv2.fillPoly(temp_mask, [poly], 1)
-		
-		theta = find_min_rect_angle(vertice)
-		rotate_mat = get_rotate_mat(theta)
-		
-		rotated_vertices = rotate_vertices(vertice, theta)
-		x_min, x_max, y_min, y_max = get_boundary(rotated_vertices)
-		rotated_x, rotated_y = rotate_all_pixels(rotate_mat, vertice[0], vertice[1], length)
-	
-		d1 = rotated_y - y_min
-		d1[d1<0] = 0
-		d2 = y_max - rotated_y
-		d2[d2<0] = 0
-		d3 = rotated_x - x_min
-		d3[d3<0] = 0
-		d4 = x_max - rotated_x
-		d4[d4<0] = 0
-		geo_map[:,:,0] += d1[index_y, index_x] * temp_mask
-		geo_map[:,:,1] += d2[index_y, index_x] * temp_mask
-		geo_map[:,:,2] += d3[index_y, index_x] * temp_mask
-		geo_map[:,:,3] += d4[index_y, index_x] * temp_mask
-		geo_map[:,:,4] += theta * temp_mask
-	
-	cv2.fillPoly(ignored_map, ignored_polys, 1)
-	cv2.fillPoly(score_map, polys, 1)
-	return torch.Tensor(score_map).permute(2,0,1), torch.Tensor(geo_map).permute(2,0,1), torch.Tensor(ignored_map).permute(2,0,1)
-
 
 def extract_vertices(lines):
 	'''extract vertices info from txt lines
@@ -367,20 +368,14 @@ def extract_vertices(lines):
 	labels = []
 	vertices = []
 	for line in lines: 
-		# TODO 아래 내역들 한번 더 확인 부탁드립니다~
-		# line --> x, y, width, height, 텍스트라벨 로 구성
-		#  왼쪽 위 꼭지점 --> x , y line[0],line[1]
-		# 오른쪽 위 꼭지점 --> x + width , y line[0] + line[2] , line[1]
-		# 오른쪽 아래 꼭지점 --> x + width , y + height line[0] + line[2] , line[1] + line[3]
-		# 왼쪽 아래 꼭지점 --> x , y + height line[0] , line[1] + line[3]
 		vertices.append([line[0],line[1],line[0] + line[2] , line[1] , line[0] + line[2] , line[1] + line[3] , line[0] , line[1] + line[3] ]) #TODO Check
-		label = 1 # 0 if '###' in line else 1  # aihub 데이터셋은 모두가 valid 한 데이터셋이므로 무조건 1
+		label = 1
 		labels.append(label)
-	return np.array(vertices), np.array(labels)
+	return np.array(vertices).astype(np.float32), np.array(labels)
 
 	
 class custom_dataset(data.Dataset):
-	def __init__(self, img_path, gt_path, scale=0.25, length=256):
+	def __init__(self, img_path, gt_path, scale=0.25, length=512):
 		super(custom_dataset, self).__init__()
 
 		self.img_files = img_path
@@ -393,26 +388,18 @@ class custom_dataset(data.Dataset):
 
 	def __getitem__(self, index):
 		with open(self.gt_files[index], 'r',encoding='utf-8') as f:
-			json_data = json.load(f)
+			json_data = json.load(f)# 0 if '###' in line else 1  # aihub 데이터셋은 모두가 valid 한 데이터셋이므로 무조건 1
 			annotations = json_data["annotations"]
 			bounding_boxs = []
 
 			for i, object in enumerate(annotations):
-
-				# text = object['annotation.text']
-				#bounding_box = object['annotation.bbox']
 				bounding_boxs.append(object['annotation.bbox'])
 
-		vertices,labels = extract_vertices(bounding_boxs)
+		vertices, labels = extract_vertices(bounding_boxs)
 		
-		img = Image.open(self.img_files[index]) # grayscale로 변경
-
-		img = img.resize((int(img.width / 3) , int(img.height / 3)))
-		vertices = vertices / 3
-
-
-		#img, vertices = adjust_height(img, vertices) #data augmentation 필요 없어서 제거
-		#img, vertices = rotate_img(img, vertices)
+		img = Image.open(self.img_files[index])
+		img, vertices = adjust_height(img, vertices)
+		img, vertices = rotate_img(img, vertices)
 		img, vertices = crop_img(img, vertices, labels, self.length)
 
 		transform = transforms.Compose([transforms.ColorJitter(0.5, 0.5, 0.5, 0.25), \

@@ -1,18 +1,18 @@
 import logging
 import os
-import random
 import shutil
 
-import numpy as np
 import torch
 from rich.console import Console
 from rich.logging import RichHandler
 from rich.progress import Progress
 
+
 def set_seed(seed):
     torch.manual_seed(seed)
     torch.cuda.manual_seed(seed)
     torch.cuda.manual_seed_all(seed)
+
 
 class AttnLabelConverter(object):
     """ Convert between text-label and text-index """
@@ -60,12 +60,13 @@ class AttnLabelConverter(object):
             text = ''.join([self.character[i] for i in text_index[index, :]])
             texts.append(text)
         return texts
-        
+
+
 def make_epoch_description(history: dict, current: int, total: int, best: int, exclude: list = []):
     """Create description string for logging progress."""
     pfmt = f">{len(str(total))}d"
     desc = f" Epoch: [{current:{pfmt}}/{total:{pfmt}}] ({best:{pfmt}}) |"
-    for metric_name, metric_dict  in history.items():
+    for metric_name, metric_dict in history.items():
         if not isinstance(metric_dict, dict):
             raise TypeError("`history` must be a nested dictionary.")
         if metric_name in exclude:
@@ -83,6 +84,7 @@ def get_rich_pbar(transient: bool = True, auto_refresh: bool = False):
         auto_refresh=auto_refresh,
         transient=transient
     )
+
 
 def get_rich_logger(logfile: str = None, level=logging.INFO):
     """A colorful logger based on the `rich` python library."""
@@ -135,9 +137,9 @@ def get_logger(stream=False, logfile=None, level=logging.INFO):
 
     return rootLogger
 
-def touch(filepath: str, mode: str='w'):
+
+def touch(filepath: str, mode: str = 'w'):
     assert mode in ['a', 'w']
     directory, _ = os.path.split(os.path.abspath(filepath))
     os.makedirs(directory, exist_ok=True)
     open(filepath, mode).close()
-

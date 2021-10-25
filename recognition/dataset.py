@@ -100,31 +100,6 @@ class Batch_Balanced_Dataset(object):
         return balanced_batch_images, balanced_batch_texts
 
 
-def hierarchical_dataset(root, opt, select_data='/'):
-    """ select_data='/' contains all sub-directory of root directory """
-    dataset_list = []
-    dataset_log = f'dataset_root:    {root}\t dataset: {select_data[0]}'
-    print(dataset_log)
-    dataset_log += '\n'
-    for dirpath, dirnames, filenames in os.walk(root+'/'):
-        if not dirnames:
-            select_flag = False
-            for selected_d in select_data:
-                if selected_d in dirpath:
-                    select_flag = True
-                    break
-
-            if select_flag:
-                dataset = LmdbDataset(dirpath, opt)
-                sub_dataset_log = f'sub-directory:\t/{os.path.relpath(dirpath, root)}\t num samples: {len(dataset)}'
-                print(sub_dataset_log)
-                dataset_log += f'{sub_dataset_log}\n'
-                dataset_list.append(dataset)
-
-    concatenated_dataset = ConcatDataset(dataset_list)
-
-    return concatenated_dataset, dataset_log
-
 
 class LmdbDataset(Dataset):
 
@@ -159,6 +134,11 @@ class LmdbDataset(Dataset):
                     index += 1  # lmdb starts with 1
                     label_key = 'label-%09d'.encode() % index
                     label = txn.get(label_key).decode('utf-8')
+
+                    if len(label) > self.opt.batch_max_length:
+                        # print(f'The length of the label is longer than max_length: length
+                        # {len(label)}, {label} in dataset {self.root}')
+                        continue
 
                     # By default, images containing characters which are not in opt.character are filtered.
                     # You can add [UNK] token to `opt.character` in utils.py instead of this filtering.
@@ -293,7 +273,7 @@ class AlignCollate(object):
         batch = filter(lambda x: x is not None, batch)
         images, labels = zip(*batch)
 
-        if self.keep_ratio_with_pad:  # same concept with 'Rosetta' paper resize시 원래 비율대로 맞출지 여부
+        if self.keep_ratio_with_pad:  # same concept with 'Rosetta' paper
             resized_max_w = self.imgW
             input_channel = 3 if images[0].mode == 'RGB' else 1
             transform = NormalizePAD((input_channel, self.imgH, resized_max_w))
