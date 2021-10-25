@@ -40,7 +40,7 @@ def train(args):
 
     criterion = Loss()
 
-    device = 'cpu' #torch.device(f"cuda:{args.gpu_device}" if torch.cuda.is_available() else "cpu")
+    device = torch.device(f"cuda:{args.gpu_device}" if torch.cuda.is_available() else "cpu")
 
     model = EAST(w=args.w, d=args.d)
     if torch.cuda.device_count() > 1:  # multi gpu train
