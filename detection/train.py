@@ -68,10 +68,6 @@ def train(args):
             training_classifyloss = 0.0
             training_geoloss = 0.0
             training_iouloss = 0.0
-
-
-
-
             for _, (img, gt_score, gt_geo, ignored_map) in enumerate(train_loader):
                 img, gt_score, gt_geo, ignored_map = img.to(device), gt_score.to(device), gt_geo.to(
                     device), ignored_map.to(device)
@@ -130,27 +126,27 @@ def train(args):
                 pg.print('Validation loss is {:.8f}'.format(avg_valid_loss / len(valid_loader)))
                 args.logger.info('Validation loss is {:.8f}'.format(avg_valid_loss / len(valid_loader)))
                 model.train()
-        #################################################
-        ###### 1epoch 마다 test image 기록 및 모델 저장#####
-        #################################################
-        img = et.main(model, device)
-        tf = transforms.ToTensor()
-        img_t = tf(img)
-        img_t = img_t.permute(1, 2, 0)
+            #################################################
+            ###### 1epoch 마다 test image 기록 및 모델 저장#####
+            #################################################
+            img = et.main(model, device)
+            tf = transforms.ToTensor()
+            img_t = tf(img)
+            img_t = img_t.permute(1, 2, 0)
 
-        fig = plt.figure(figsize=(20,20))
-        plt.imshow(img_t)
+            fig = plt.figure(figsize=(20,20))
+            plt.imshow(img_t)
 
 
-        if args.tensorboard:
-            args.writer.add_figure(f'{epoch}th epoch Test result image', fig, epoch)
-        plt.close('all')
+            if args.tensorboard:
+                args.writer.add_figure(f'{epoch}th epoch Test result image', fig, epoch)
+            plt.close('all')
 
-        # if epoch % 20 == 0 and args.start_epochs == 0 and epoch != 0: #epoch 20마다 모델 저장
-        path = f'./parameter/{args.run_name}'
-        if not os.path.exists(path):  # epoch 1마다 모델 저장
-            os.makedirs(path)
-        torch.save(model.state_dict(), f'{path}/model_epoch_{epoch}.pth')
+            # if epoch % 20 == 0 and args.start_epochs == 0 and epoch != 0: #epoch 20마다 모델 저장
+            path = f'./parameter/{args.run_name}'
+            if not os.path.exists(path):  # epoch 1마다 모델 저장
+                os.makedirs(path)
+            torch.save(model.state_dict(), f'{path}/model_epoch_{epoch}.pth')
 
         # early_stopping(valid_geoloss, model) 임시 주석처리
         # if early_stopping.early_stop:
