@@ -87,8 +87,7 @@ def train(args):
 				trainingloss.backward()
 				optimizer.step()
 				pg.update(task,advance=1)
-				break;
-
+				
 			if args.tensorboard:
 				args.writer.add_scalar('Training_loss', epoch_loss / len(train_loader), epoch)
 				args.writer.add_scalar('Training_classifyloss', training_classifyloss / len(train_loader), epoch)
@@ -113,7 +112,6 @@ def train(args):
 					valid_geoloss += v_geoloss.item()
 					valid_iouloss += v_iouloss.item()
 					pg.print('classify loss is {:.8f}, geo loss is {:.8f}, iou loss is {:.8f}'.format(v_classifyloss,v_geoloss,v_iouloss))
-					break
 
 				avg_valid_loss = (valid_classifyloss + valid_geoloss + valid_iouloss)
 				if args.tensorboard:
@@ -145,7 +143,6 @@ def train(args):
 				test_classifyloss += t_classifyloss.item()
 				test_geoloss += t_geoloss.item()
 				test_iouloss += t_geoloss.item()
-				break
 
 				prob_total_u_mu = torch.zeros((30, t_gt_score.size(0), t_gt_score.size(2),t_gt_score.size(3)), device=t_gt_score.device)
 				for t in range(30):
