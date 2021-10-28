@@ -222,7 +222,7 @@ def main():
     parser.add_argument("--log_path", type=str, default="./log")
     parser.add_argument("--exp_name", type=str, default="EAST_baseline", help="experiment name")
     parser.add_argument("--pretrained", action='store_true')
-    parser.add_argument('--tensorboard', type=str, default='None', help='tensorboard run and project name')
+    parser.add_argument('--tensorboard', type=str, default=None, help='tensorboard run and project name')
 
     args = parser.parse_args()
 

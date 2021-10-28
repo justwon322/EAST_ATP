@@ -26,7 +26,6 @@ def resize_img(img):
 
     return img, ratio_h, ratio_w
 
-
 def load_pil(img):
     '''convert PIL Image to torch.Tensor
 	'''
